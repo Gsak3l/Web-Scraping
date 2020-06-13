@@ -22,10 +22,7 @@ class Bot:
         else:
             self.full_text = span[0].text + span[1].text + " " + span[2].text
         print(len(self.full_text), self.full_text)
-        # for i in range(1, len(self.full_text)):
-        #    if self.full_text[i] == ',' and self.full_text[i-1] == ' ':
-        #        self.full_text = self.full_text[:i-1] + self.full_text[:i]
-        # print(len(self.full_text), self.full_text)
+
         if len(self.full_text) < 150:
             self.time = (len(self.full_text) / self.WPM) / 100 + 0.103
         elif len(self.full_text) < 220:
@@ -36,7 +33,7 @@ class Bot:
 
 def main():
     tp = Bot(WPM=100)
-    tp.driver.get("https://play.typeracer.com?rt=14zmzi7jcm")
+    tp.driver.get("https://play.typeracer.com?rt=2nieuhkl5i")
     sleep(5)
     tp.driver.find_element_by_class_name("qc-cmp-button").click()
     tp.driver.implicitly_wait(1)
