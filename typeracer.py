@@ -33,7 +33,7 @@ class Bot:
 
 def main():
     tp = Bot(WPM=100)
-    tp.driver.get("https://play.typeracer.com?rt=2nieuhkl5i")
+    tp.driver.get("https://play.typeracer.com?rt=2nieuhkl5iBV")
     sleep(5)
     tp.driver.find_element_by_class_name("qc-cmp-button").click()
     tp.driver.implicitly_wait(1)
