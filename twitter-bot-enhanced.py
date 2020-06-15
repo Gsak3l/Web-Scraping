@@ -7,7 +7,7 @@ import time
 email = ""
 full_name = ""
 password = ""
-code_confirmation = ""
+verification_code = ""
 
 
 class Sign_Up_Bot:
@@ -23,15 +23,15 @@ class Sign_Up_Bot:
         flag = True
         while flag:
             try:
-                # clicking the email confirmation from twitter
-                bot.find_element_by_xpath('/html/body/section[2]/div/div/div/ul/li[2]/a').click()
-                time.sleep(1)
-                code_confirmation = bot.find_element_by_xpath('Iframe: //*[@id="iframe"]').find_element_by_xpath(
-                    '/html/body/table/tbody/tr[1]/td/table/tbody/tr[1]/td/table[1]/tbody/tr/td[2]/table/tbody/tr[10]/td').text
-                print("i did it daddy", code_confirmation)
+                # trying to get the email code that tweeter will send us
+                verification_code = bot.find_element_by_xpath(
+                    '/html/body/section[2]/div/div/div/ul/li[2]/a/div[3]').text
+                verification_code = int(verification_code.split()[0])  # splitting just the numbers
                 flag = False
             except:
                 pass
+        print(verification_code)
+        bot.close()
 
     def get_full_name(self):
         bot = self.bot
