@@ -153,19 +153,10 @@ class Sign_Up_Bot:
         # liking the home page feed
         flag = True
         counter = 1
+        time.sleep(2)
         while flag:
             try:
-                bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div['
-                                          '4]/div/div/section/div/div/div/div[' + str(counter) +
-                                          ']/div/div/div/div/article/div/div[2]/div[2]/div[2]/div[3]/div['
-                                          '3]/div/div/div[1]/svg').click()
-                bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]'
-                                          '/div/div[4]/div/div/section/div/div/div/div[' + str(counter) +
-                                          ']/div/div/div/div/div/article/div/div[2]/div[2]/div[2]/div[3]/'
-                                          'div[3]/div/div/div[1]/svg')
-                counter += 1
-            except:
-                print('error!')
+
 
 
 if __name__ == '__main__':
