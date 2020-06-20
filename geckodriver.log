@@ -2971,3 +2971,4 @@ JavaScript error: https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020061
 1592412421442	Marionette	INFO	Stopped listening on port 39787
 [Child 35471, MediaDecoderStateMachine #1] WARNING: 7fc7209e8e20 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
 [Child 35471, MediaDecoderStateMachine #1] WARNING: Decoder=7fc71873e000 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+1592412751996	Marionette	INFO	Stopped listening on port 33851

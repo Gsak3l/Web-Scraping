@@ -154,16 +154,27 @@ class Sign_Up_Bot:
         flag = True
         counter = 1
         time.sleep(2)
-        while flag:
+
+        bot = self.bot
+        while True:
+            tweets = bot.find_elements_by_class_name('css-1dbjc4n.r-1ila09b')  # finds all the loaded tweets
             try:
-                bot.find_element_by_xpath('/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div['
-                                          '4]/div/div/section/div/div/div/div[' + str(counter) +
-                                          ']/div/div/div/div/article/div/div[2]/div[2]/div[2]/div[3]/div['
-                                          '3]/div/div/div[1]').click()
-                bot.execute_script('window.scrollBy(0, 80);')
-            except:
-                pass
-            counter += 1
+                for tweet in tweets:  # tries to go to reach each tweet with its class name
+                    svg = tweet.find_elements_by_class_name(
+                        'r-4qtqp9.r-yyyyoo.r-1xvli5t.r-dnmrzs.r-bnwqim.r-1plcrui.r-lrvibr.r-1hdv0qi')  # finds the 4 svg buttons available for each tweet (commend, like, share, etc)
+                    if len(svg) == 4:  # just to make sure that it is a post and not something else that uses svg images
+                        try:
+                            svg[2].click()  # tries to click the 3rd svg, which is the heart svg
+                            time.sleep(1)  # waits a second after that
+                        except Exception as ex:
+                            bot.execute_script(
+                                'window.scrollBy(0, 80);')  # if the heart svg is unreachable, it scrolls down by 80px
+                            time.sleep(1)  # waits one second
+                    time.sleep(4)  # waits 4 seconds
+            except Exception as newEx:  # in case there aren't any tweets, it prints the message below
+                print('We shall continue...')
+            bot.execute_script(
+                'window.scrollTo(0, document.body.scrollHeight)')  # it scrolls to the bottom of the tweeter feed, and keeps going
 
 
 if __name__ == '__main__':
