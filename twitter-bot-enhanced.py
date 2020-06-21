@@ -163,13 +163,26 @@ class Sign_Up_Bot:
                 bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div['
                                           '2]/div/div/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div').click()
                 time.sleep(2)
-                bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div['
-                                          '2]/div').click()
                 flag = False
                 # and the account has been created
                 f = open("accounts.txt", "a+")
                 f.write("Full Name: " + full_name[0] + " || Email: " + email[0] + " || Password: " + password[0] + "\n")
                 f.close()
+        flag = True
+        counter = 1
+        while flag:
+            try:
+                bot.find_element_by_xpath(
+                    '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[4]/div/div/section/div/div/div'
+                    '/div[' + str(counter) + ']/div/div/div/div/article/div/div[2]/div[2]/div[2]/div[3]/div[3]/div'
+                                             '/div/div[1]').click()
+                bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[4]/div/div/'
+                                          'section/div/div/div/div[' + str(counter) + ']/div/div/div/div/article/div'
+                                                                                      '/div[2]/div[2]/div[2]/div['
+                                                                                      '3]/div[3]/div/div/div[1]')
+                counter += 1
+            except:
+                pass
 
 
 if __name__ == '__main__':
