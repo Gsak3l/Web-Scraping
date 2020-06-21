@@ -3,6 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 import multiprocessing
+from selenium.webdriver.support.ui import Select
+from random import randint
 
 manager = multiprocessing.Manager()
 full_name = manager.list()
@@ -82,6 +84,25 @@ class Sign_Up_Bot:
                     '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/'
                     'div/div/div[3]/label/div/div[2]/div/input').send_keys(email[0])
                 time.sleep(1)
+                # adding the age on the fields
+                # month
+                select = Select(bot.find_element_by_xpath(
+                    '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div['
+                    '2]/div/div/div[5]/div[3]/div/div[1]/div[2]/select'))
+                select.select_by_value(str(randint(1, 12)))
+                time.sleep(0.2)
+                # day
+                select = Select(bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div['
+                                                          '2]/div[2]/div/div/div[2]/div[2]/div/div/div[5]/div['
+                                                          '3]/div/div[2]/div[2]/select'))
+                select.select_by_value(str(randint(1, 30)))
+                time.sleep(0.2)
+                # year
+                select = Select(bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div['
+                                                          '2]/div[2]/div/div/div[2]/div[2]/div/div/div[5]/div['
+                                                          '3]/div/div[3]/div[2]/select'))
+                select.select_by_value(str(randint(1960, 2001)))
+                time.sleep(0.5)
                 # clicking the next button at the top right corner to get to the next page
                 bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div['
                                           '2]/div/div/div[2] '
@@ -93,8 +114,8 @@ class Sign_Up_Bot:
                     'div[1]/div/div/div/div[3]/div').click()
                 time.sleep(0.5)
                 bot.find_element_by_xpath(  # clicking the final sign-up button
-                    '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/'
-                    'div/div/div/div[4]/div').click()
+                    '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div['
+                    '2]/div/div/div/div[5]/div').click()
                 flag2 = True
                 while flag2:
                     if len(verification_code) > 0:
@@ -149,32 +170,6 @@ class Sign_Up_Bot:
                 f = open("accounts.txt", "a+")
                 f.write("Full Name: " + full_name[0] + " || Email: " + email[0] + " || Password: " + password[0] + "\n")
                 f.close()
-        time.sleep(2)
-        # liking the home page feed
-        flag = True
-        counter = 1
-        time.sleep(2)
-
-        bot = self.bot
-        while True:
-            tweets = bot.find_elements_by_class_name('css-1dbjc4n.r-1ila09b')  # finds all the loaded tweets
-            try:
-                for tweet in tweets:  # tries to go to reach each tweet with its class name
-                    svg = tweet.find_elements_by_class_name(
-                        'r-4qtqp9.r-yyyyoo.r-1xvli5t.r-dnmrzs.r-bnwqim.r-1plcrui.r-lrvibr.r-1hdv0qi')  # finds the 4 svg buttons available for each tweet (commend, like, share, etc)
-                    if len(svg) == 4:  # just to make sure that it is a post and not something else that uses svg images
-                        try:
-                            svg[2].click()  # tries to click the 3rd svg, which is the heart svg
-                            time.sleep(1)  # waits a second after that
-                        except Exception as ex:
-                            bot.execute_script(
-                                'window.scrollBy(0, 80);')  # if the heart svg is unreachable, it scrolls down by 80px
-                            time.sleep(1)  # waits one second
-                    time.sleep(4)  # waits 4 seconds
-            except Exception as newEx:  # in case there aren't any tweets, it prints the message below
-                print('We shall continue...')
-            bot.execute_script(
-                'window.scrollTo(0, document.body.scrollHeight)')  # it scrolls to the bottom of the tweeter feed, and keeps going
 
 
 if __name__ == '__main__':
