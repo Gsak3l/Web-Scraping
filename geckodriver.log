@@ -3326,3 +3326,26 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mi
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1592773531976	Marionette	INFO	Stopped listening on port 43171
+Exiting due to channel error.
+Exiting due to channel error.
+1592851207757	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hLlWmgAdsxBa"
+1592851209532	Marionette	INFO	Listening on port 45685
+1592851209561	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592851307708	Marionette	INFO	Stopped listening on port 45685
+1592851310373	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZAsBlE9ekx1X"
+1592851312255	Marionette	INFO	Listening on port 46081
+1592851312277	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592851581885	Marionette	INFO	Stopped listening on port 46081
+1592851590141	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ktiXO93N1tK8"
+1592851592293	Marionette	INFO	Listening on port 40231
+1592851592387	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10222, MediaDecoderStateMachine #1] WARNING: 7f4bf79d6bf0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 10222, MediaDecoderStateMachine #1] WARNING: Decoder=7f4bfd5e6c00 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 10222, MediaDecoderStateMachine #1] WARNING: 7f4bf79d6d90 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 10222, MediaDecoderStateMachine #1] WARNING: Decoder=7f4bfd5e6400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+1592851629044	Marionette	INFO	Stopped listening on port 40231
+1592851639536	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lezRGVHOR0Ju"
+1592851641571	Marionette	INFO	Listening on port 41615
+1592851641666	Marionette	WARN	TLS certificate errors will be ignored for this session
