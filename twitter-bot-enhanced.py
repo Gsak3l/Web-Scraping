@@ -108,6 +108,12 @@ class Sign_Up_Bot:
                                           '2]/div/div/div[2] '
                                           '/div[1]/div/div/div/div[3]/div').click()
                 time.sleep(0.5)
+                # accepting some options like personalized ads etc
+                for i in range(1, 4):
+                    bot.find_element_by_xpath(
+                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/'
+                        'div/div/label[' + str(i) + ']/div[2]/input').click()
+                    time.sleep(1)
                 # clicking the next button at the top right corner to get to the next page
                 bot.find_element_by_xpath(
                     '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/'
@@ -150,7 +156,7 @@ class Sign_Up_Bot:
                                           '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/div').click()
                 time.sleep(2)
                 # following some accounts
-                for i in range(3, 11):
+                for i in range(3, 13):
                     bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/'
                                               'div[2]/div[2]/div/div/div[3]/section/div/div/div/div[' + str(i) +
                                               ']/div/div/div/div[2]/div[1]/div[2]/div').click()
@@ -168,9 +174,11 @@ class Sign_Up_Bot:
                 f = open("accounts.txt", "a+")
                 f.write("Full Name: " + full_name[0] + " || Email: " + email[0] + " || Password: " + password[0] + "\n")
                 f.close()
+        bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[2]/nav/a[1]').click()
+        time.sleep(2)
         flag = True
-        tries = []
         counter = 1
+        tries = []
         while flag:
             try:
                 tries.append(counter)
@@ -180,10 +188,10 @@ class Sign_Up_Bot:
                     time.sleep(2)
                 else:
                     bot.find_element_by_xpath(
-                        '/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[4]/div/div/section/div/div/div/div['
-                        + str(
-                            counter) + ']/div/div/div/div/article/div/div[2]/div[2]/div[2]/div[3]/div[3]/div/div/div[1]') \
-                        .click()
+                        '/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div['
+                        '4]/div/div/section/div/div/div/div[ '
+                        + str(counter) + ']/div/div/div/div/article/div/div[2]/div[2]/div[2]/div[3]/div[3]'
+                                         '/div/div/div[1]').click()
                     counter += 1
                     time.sleep(1)
             except:
@@ -191,30 +199,28 @@ class Sign_Up_Bot:
 
 
 if __name__ == '__main__':
-    input_1 = raw_input("Do you want from me to Create a new Temporary Twitter?(Y/n):")
-    if input_1.lower() == "y":
-        # creating 4 different bots, who have 4 different processes
-        bot1 = Sign_Up_Bot()
-        bot2 = Sign_Up_Bot()
-        bot3 = Sign_Up_Bot()
-        bot4 = Sign_Up_Bot()
-        process1 = multiprocessing.Process(target=bot1.get_full_name, args=(full_name,))
-        process2 = multiprocessing.Process(target=bot2.get_email, args=(email,))
-        process3 = multiprocessing.Process(target=bot3.get_password, args=(password,))
-        process4 = multiprocessing.Process(target=bot4.twitter_bot, )
-        process1.start()
-        process2.start()
-        process3.start()
-        process4.start()
-        process1.join()
-        process2.join()
-        process3.join()
-        process4.join()
-        # input_1 = raw_input("1. Like All the Posts from the Home Page\n"
-        #                     "2. Retweet All the Posts from the Home Page\n"
-        #                     "3. Like All the Posts from a specific Hashtag #\n"
-        #                     "4. Like a Specific Post\n"
-        #                     "Please Type your Answer Here: ")
+    # creating 4 different bots, who have 4 different processes
+    bot1 = Sign_Up_Bot()
+    bot2 = Sign_Up_Bot()
+    bot3 = Sign_Up_Bot()
+    bot4 = Sign_Up_Bot()
+    process1 = multiprocessing.Process(target=bot1.get_full_name, args=(full_name,))
+    process2 = multiprocessing.Process(target=bot2.get_email, args=(email,))
+    process3 = multiprocessing.Process(target=bot3.get_password, args=(password,))
+    process4 = multiprocessing.Process(target=bot4.twitter_bot, )
+    process1.start()
+    process2.start()
+    process3.start()
+    process4.start()
+    process1.join()
+    process2.join()
+    process3.join()
+    process4.join()
+    # input_1 = raw_input("1. Like All the Posts from the Home Page\n"
+    #                     "2. Retweet All the Posts from the Home Page\n"
+    #                     "3. Like All the Posts from a specific Hashtag #\n"
+    #                     "4. Like a Specific Post\n"
+    #                     "Please Type your Answer Here: ")
 
 # this bot creates accounts only in Europe. US has an age restriction, and I didn't scrape that part
 # websites used for this autogenerated-twitter like bot
