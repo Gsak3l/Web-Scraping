@@ -56,7 +56,7 @@ class Sign_Up_Bot:
         time.sleep(3)
         # getting the random generated password
         local_password = bot.find_element_by_xpath(
-            '/html/body/div[1]/div[1]/div/div[1]/main/div/div[5]/section/div/div/div/div[1]/div/div[1]/div[1]').text
+            '/html/body/div[1]/div[1]/div/div[1]/main/div/div[4]/section/div/div/div/div[1]/div/div[1]/div[1]').text
         password_list.append(local_password)
         bot.close()
 
@@ -169,18 +169,23 @@ class Sign_Up_Bot:
                 f.write("Full Name: " + full_name[0] + " || Email: " + email[0] + " || Password: " + password[0] + "\n")
                 f.close()
         flag = True
+        tries = []
         counter = 1
         while flag:
             try:
-                bot.find_element_by_xpath(
-                    '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[4]/div/div/section/div/div/div'
-                    '/div[' + str(counter) + ']/div/div/div/div/article/div/div[2]/div[2]/div[2]/div[3]/div[3]/div'
-                                             '/div/div[1]').click()
-                bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[4]/div/div/'
-                                          'section/div/div/div/div[' + str(counter) + ']/div/div/div/div/article/div'
-                                                                                      '/div[2]/div[2]/div[2]/div['
-                                                                                      '3]/div[3]/div/div/div[1]')
-                counter += 1
+                tries.append(counter)
+                if tries.count(counter) == 5:
+                    counter += 1
+                    bot.execute_script('window.scrollTo(0, document.body.scrollHeight)')
+                    time.sleep(2)
+                else:
+                    bot.find_element_by_xpath(
+                        '/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[4]/div/div/section/div/div/div/div['
+                        + str(
+                            counter) + ']/div/div/div/div/article/div/div[2]/div[2]/div[2]/div[3]/div[3]/div/div/div[1]') \
+                        .click()
+                    counter += 1
+                    time.sleep(1)
             except:
                 pass
 
