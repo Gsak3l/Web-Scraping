@@ -11,6 +11,7 @@ full_name = manager.list()
 email = manager.list()
 password = manager.list()
 verification_code = manager.list()
+bio = manager.list()
 
 
 class Sign_Up_Bot:
@@ -59,6 +60,18 @@ class Sign_Up_Bot:
             '/html/body/div[1]/div[1]/div/div[1]/main/div/div[4]/section/div/div/div/div[1]/div/div[1]/div[1]').text
         password_list.append(local_password)
         bot.close()
+
+    def get_bio(self, bio_list):
+        bot = self.bot
+        bot.get('https://sassycaptions.com/bio-generator/')
+        time.sleep(1)
+        # cookie stuff
+        bot.find_element_by_xpath('//*[@id="onesignal-popover-cancel-button"]').click()
+        time.sleep(0.5)
+        # generating a bio
+        bot.find_element_by_xpath('//*[@id="gen"]').click()
+        # taking the bio
+        bio_list.append(bot.find_element_by_xpath('//*[@id="quote"]').text)
 
     def twitter_bot(self):
         bot = self.bot
@@ -204,10 +217,12 @@ if __name__ == '__main__':
     bot2 = Sign_Up_Bot()
     bot3 = Sign_Up_Bot()
     bot4 = Sign_Up_Bot()
+    bot5 = Sign_Up_Bot()
     process1 = multiprocessing.Process(target=bot1.get_full_name, args=(full_name,))
     process2 = multiprocessing.Process(target=bot2.get_email, args=(email,))
     process3 = multiprocessing.Process(target=bot3.get_password, args=(password,))
-    process4 = multiprocessing.Process(target=bot4.twitter_bot, )
+    process4 = multiprocessing.Process(target=bot4.get_bio, args=(bio,))
+    process5 = multiprocessing.Process(target=bot5.twitter_bot, )
     process1.start()
     process2.start()
     process3.start()
@@ -216,6 +231,8 @@ if __name__ == '__main__':
     process2.join()
     process3.join()
     process4.join()
+    process5.join()
+    print(bio[0])
     # input_1 = raw_input("1. Like All the Posts from the Home Page\n"
     #                     "2. Retweet All the Posts from the Home Page\n"
     #                     "3. Like All the Posts from a specific Hashtag #\n"
@@ -227,5 +244,6 @@ if __name__ == '__main__':
 # https://tempail.com/en/ temporary email address
 # https://www.behindthename.com/random/ random name
 # https://nordpass.com/password-generator/ random password
+# https://sassycaptions.com/bio-generator/ generating bio
 # https://twitter.com/explore twitter
 # please note, that twitter might ask some of these accounts to fill a phone number

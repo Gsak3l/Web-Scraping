@@ -4310,3 +4310,108 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mi
 [Child 25572, MediaDecoderStateMachine #1] WARNING: 7fa6627f4870 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
 [Child 25572, MediaDecoderStateMachine #1] WARNING: Decoder=7fa672840c00 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
 1593020082470	Marionette	INFO	Stopped listening on port 42047
+1593021252846	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QWlIaMCbIdL3"
+1593021254713	Marionette	INFO	Listening on port 40791
+1593021254750	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593021298844	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TC9zsu56T9IU"
+1593021300668	Marionette	INFO	Listening on port 46799
+1593021300748	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593021308570	Marionette	INFO	Stopped listening on port 46799
+1593021309421	Marionette	INFO	Stopped listening on port 40791
+1593021416360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Ohlh7NeaUEIS"
+1593021418237	Marionette	INFO	Listening on port 40827
+1593021418264	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1593021457743	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tM19qIXjr6KC"
+1593021459610	Marionette	INFO	Listening on port 41429
+1593021459647	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593021859921	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dK8tFq9M7N8c"
+1593021861765	Marionette	INFO	Listening on port 41101
+1593021861825	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1593021895282	Marionette	INFO	Stopped listening on port 41101
+1593021934256	Marionette	INFO	Stopped listening on port 41429
+1593021935404	Marionette	INFO	Stopped listening on port 40827
+1593021950098	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9mvprX4ctvA2"
+1593021951979	Marionette	INFO	Listening on port 36005
+1593021952002	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593022040507	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xMElvd1vcdb9"
+1593022042298	Marionette	INFO	Listening on port 34715
+1593022042318	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1593022094244	Marionette	INFO	Stopped listening on port 36005
+1593022096185	Marionette	INFO	Stopped listening on port 34715
+1593022097727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fJmNfRwLhhm2"
+1593022099531	Marionette	INFO	Listening on port 35615
+1593022099632	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.character-generator.org.uk/bio/, line 592: TypeError: document.getElementsByName(...)[0] is undefined
+JavaScript error: https://www.character-generator.org.uk/bio/, line 592: TypeError: document.getElementsByName(...)[0] is undefined
+1593022264784	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Sb1QgfHiysCS"
+1593022266614	Marionette	INFO	Listening on port 35433
+1593022266688	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593022270166	Marionette	INFO	Stopped listening on port 35615
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593023420439	Marionette	INFO	Stopped listening on port 35433
+1593023422649	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GZWXyragZWna"
+1593023424486	Marionette	INFO	Listening on port 41019
+1593023424558	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593023437882	Marionette	INFO	Stopped listening on port 41019
+1593023441036	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.twn9bDofzUEa"
+1593023442882	Marionette	INFO	Listening on port 46151
+1593023442943	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1593023483565	Marionette	INFO	Stopped listening on port 46151
+1593023491600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.M6KkUmJ96ckY"
+1593023493472	Marionette	INFO	Listening on port 39291
+1593023493504	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1593023568750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PY3Aq2Yk910A"
+1593023570544	Marionette	INFO	Listening on port 41761
+1593023570555	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593023572928	Marionette	INFO	Stopped listening on port 39291
+1593023682316	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6jfj7Wq59IG2"
+1593023684152	Marionette	INFO	Listening on port 35645
+1593023684219	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593023684248	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OUVjPoh0S6qF"
+1593023686118	Marionette	INFO	Listening on port 39823
+1593023686151	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593023687178	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4zSJsB0LucB1"
+1593023689344	Marionette	INFO	Listening on port 45239
+1593023689383	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593023689422	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Aopa8jOodQa2"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1593023710981	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PgUVVjfB6vwW"
+1593023712852	Marionette	INFO	Listening on port 43385
+1593023712886	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593023712915	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3qClQcHZx3bR"
+1593023714798	Marionette	INFO	Listening on port 46621
+1593023714819	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593023714847	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gmHkhazBbmRu"
+1593023716096	Marionette	INFO	Stopped listening on port 41761
+1593023716720	Marionette	INFO	Listening on port 35155
+1593023716751	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593023716779	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FWyuqWsfjGmR"
+1593023718728	Marionette	INFO	Listening on port 41187
+1593023718783	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593023728737	Marionette	INFO	Stopped listening on port 35155
+1593023729393	Marionette	INFO	Stopped listening on port 43385
+1593023735554	Marionette	INFO	Stopped listening on port 46621
+1593023738614	Marionette	INFO	Stopped listening on port 41187
