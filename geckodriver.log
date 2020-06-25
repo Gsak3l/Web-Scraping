@@ -4556,3 +4556,220 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1593110588991	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.crZGOVvtR1qI"
+1593110590804	Marionette	INFO	Listening on port 46033
+1593110590895	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593110590923	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.b1y0KP9UclM1"
+1593110592726	Marionette	INFO	Listening on port 33919
+1593110592827	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593110592856	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4tNbOhcL1pMs"
+1593110594639	Marionette	INFO	Listening on port 43841
+1593110594660	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593110594688	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0wBKsQMZ4IFl"
+1593110596518	Marionette	INFO	Listening on port 45241
+1593110596593	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593110596625	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tkI6LOLqwR6y"
+1593110598570	Marionette	INFO	Listening on port 37995
+1593110598671	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593110603949	Marionette	INFO	Stopped listening on port 43841
+1593110604935	Marionette	INFO	Stopped listening on port 45241
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593110610528	Marionette	INFO	Stopped listening on port 46033
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593110624875	Marionette	INFO	Stopped listening on port 33919
+[Child 15498, MediaDecoderStateMachine #1] WARNING: 7faf877a9a50 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 15498, MediaDecoderStateMachine #1] WARNING: Decoder=7faf79c0a000 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 15498, MediaDecoderStateMachine #1] WARNING: 7faf7a4fc460 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 15498, MediaDecoderStateMachine #1] WARNING: Decoder=7faf6c5d4400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 15498, MediaDecoderStateMachine #1] WARNING: 7faf6bafc1f0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 15498, MediaDecoderStateMachine #1] WARNING: Decoder=7faf6c5d4400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 15498, MediaDecoderStateMachine #1] WARNING: 7faf6bafcae0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 15498, MediaDecoderStateMachine #1] WARNING: Decoder=7faf6c5d4400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 15498, MediaDecoderStateMachine #1] WARNING: 7faf6bafd160 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 15498, MediaDecoderStateMachine #1] WARNING: Decoder=7faf6c5d4400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 15498, MediaDecoderStateMachine #1] WARNING: 7faf6bafd640 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 15498, MediaDecoderStateMachine #1] WARNING: Decoder=7faf6c5d4400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 15498, MediaDecoderStateMachine #1] WARNING: 7faf72db6600 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 15498, MediaDecoderStateMachine #1] WARNING: Decoder=7faf6c5d4400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 15498, MediaDecoderStateMachine #1] WARNING: 7faf6bafc940 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 15498, MediaDecoderStateMachine #1] WARNING: Decoder=7faf6c5d4400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 15498, MediaDecoderStateMachine #1] WARNING: 7faf6bafcd50 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 15498, MediaDecoderStateMachine #1] WARNING: Decoder=7faf6c5d4400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 15498, MediaDecoderStateMachine #1] WARNING: 7faf6bafd980 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 15498, MediaDecoderStateMachine #1] WARNING: Decoder=7faf6c5d4400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 15498, MediaDecoderStateMachine #1] WARNING: 7faf6bafc530 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 15498, MediaDecoderStateMachine #1] WARNING: Decoder=7faf6c5d4400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 15498, MediaDecoderStateMachine #1] WARNING: 7faf6bafc7a0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 15498, MediaDecoderStateMachine #1] WARNING: Decoder=7faf6c5d4400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+1593110769149	Marionette	INFO	Stopped listening on port 37995
+1593111405089	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KgR1MfB9wPrc"
+1593111406952	Marionette	INFO	Listening on port 43185
+1593111406993	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111407021	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1YdmqWrutSLb"
+1593111408849	Marionette	INFO	Listening on port 43897
+1593111408925	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111408953	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.If6YO9AiVsEK"
+1593111410783	Marionette	INFO	Listening on port 35453
+1593111410857	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111410887	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kjrG9X6om7YP"
+1593111412779	Marionette	INFO	Listening on port 36787
+1593111412798	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111412828	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OaHoLsmkjYmj"
+1593111414673	Marionette	INFO	Listening on port 34977
+1593111414733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593111421186	Marionette	INFO	Stopped listening on port 36787
+1593111423144	Marionette	INFO	Stopped listening on port 35453
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593111425375	Marionette	INFO	Stopped listening on port 43185
+1593111452163	Marionette	INFO	Stopped listening on port 43897
+1593111545866	Marionette	INFO	Stopped listening on port 34977
+1593111621450	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PfxQTXUEIQrl"
+1593111623277	Marionette	INFO	Listening on port 45815
+1593111623354	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111623382	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4ohjLQosk6BA"
+1593111625209	Marionette	INFO	Listening on port 42681
+1593111625287	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111625315	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0XtQJLvgHPCN"
+1593111627125	Marionette	INFO	Listening on port 38559
+1593111627219	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111627248	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LTjbqlwGcLta"
+1593111629109	Marionette	INFO	Listening on port 34841
+1593111629151	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111629179	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8wgpzILD33XM"
+1593111631102	Marionette	INFO	Listening on port 40633
+1593111631246	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593111638405	Marionette	INFO	Stopped listening on port 34841
+1593111640080	Marionette	INFO	Stopped listening on port 38559
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593111643224	Marionette	INFO	Stopped listening on port 45815
+1593111656481	Marionette	INFO	Stopped listening on port 42681
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593111829792	Marionette	INFO	Stopped listening on port 40633
+1593111957498	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XpKwozSu9vWb"
+1593111959439	Marionette	INFO	Listening on port 40323
+1593111959550	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111959584	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.td7DQKMQMulw"
+1593111961420	Marionette	INFO	Listening on port 42213
+1593111961488	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111961518	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.A3IoYgFDuSRs"
+1593111963325	Marionette	INFO	Listening on port 34131
+1593111963421	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111963449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Whgg9LmIaMXy"
+1593111965267	Marionette	INFO	Listening on port 40799
+1593111965353	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111965381	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.48MqeVKkEYjY"
+1593111967204	Marionette	INFO	Listening on port 35109
+1593111967285	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593111973659	Marionette	INFO	Stopped listening on port 34131
+1593111973826	Marionette	INFO	Stopped listening on port 40799
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593111978914	Marionette	INFO	Stopped listening on port 40323
+1593111992600	Marionette	INFO	Stopped listening on port 42213
+[Child 23641, MediaDecoderStateMachine #1] WARNING: 7fb4116ed050 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 23641, MediaDecoderStateMachine #1] WARNING: Decoder=7fb422f3f800 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 23641, MediaDecoderStateMachine #1] WARNING: 7fb40a2347e0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 23641, MediaDecoderStateMachine #1] WARNING: Decoder=7fb40f7f6800 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 23641, MediaDecoderStateMachine #1] WARNING: Decoder=7fb40f7f6800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 23641, MediaDecoderStateMachine #1] WARNING: Decoder=7fb40f7f6800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 23641, MediaDecoderStateMachine #1] WARNING: 7fb4044fd870 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 23641, MediaDecoderStateMachine #1] WARNING: Decoder=7fb4082ea400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 23641, MediaDecoderStateMachine #1] WARNING: 7fb408cf0600 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 23641, MediaDecoderStateMachine #1] WARNING: Decoder=7fb4082eb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 23641, MediaDecoderStateMachine #1] WARNING: Decoder=7fb4082eb400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 23641, MediaDecoderStateMachine #1] WARNING: Decoder=7fb4082eb400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 23641, MediaDecoderStateMachine #1] WARNING: Decoder=7fb4082eb400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 23641, MediaDecoderStateMachine #1] WARNING: Decoder=7fb4082eb400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 23641, MediaDecoderStateMachine #1] WARNING: Decoder=7fb4082eb400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 23641, MediaDecoderStateMachine #1] WARNING: 7fb407bb28b0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 23641, MediaDecoderStateMachine #1] WARNING: Decoder=7fb408198000 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+1593112140551	Marionette	INFO	Stopped listening on port 35109
+1593112207154	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IAzWWBFuYiow"
+1593112208940	Marionette	INFO	Listening on port 45925
+1593112208959	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593112208988	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4IFBqN9RcZrJ"
+1593112210849	Marionette	INFO	Listening on port 39955
+1593112210892	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593112210920	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SMDo1erVVLWs"
+1593112212697	Marionette	INFO	Listening on port 38253
+1593112212724	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593112212757	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jjUHHeK9Eb7f"
+1593112214621	Marionette	INFO	Listening on port 46355
+1593112214661	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593112214688	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BD9rfD3y1Gzf"
+1593112216467	Marionette	INFO	Listening on port 40117
+1593112216494	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593112223712	Marionette	INFO	Stopped listening on port 46355
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1593112225957	Marionette	INFO	Stopped listening on port 38253
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593112227475	Marionette	INFO	Stopped listening on port 45925
+1593112242061	Marionette	INFO	Stopped listening on port 39955
+[Child 25597, MediaDecoderStateMachine #1] WARNING: 7fd9294e1160 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 25597, MediaDecoderStateMachine #1] WARNING: Decoder=7fd93b20b400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 25597, MediaDecoderStateMachine #1] WARNING: Decoder=7fd93b20b400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 25597, MediaDecoderStateMachine #1] WARNING: Decoder=7fd93b20b400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+1593112306205	Marionette	INFO	Stopped listening on port 40117
+1593112309230	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kYVS75FWKFbn"
+1593112310993	Marionette	INFO	Listening on port 42161
+1593112311037	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593112311068	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uh21gY1BCdsD"
+1593112312901	Marionette	INFO	Listening on port 33771
+1593112312972	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593112313001	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EZ6EhtTQL1kO"
+1593112314852	Marionette	INFO	Listening on port 34243
+1593112314905	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593112314933	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5AmcpMtlw8wC"
+1593112316744	Marionette	INFO	Listening on port 43451
+1593112316836	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593112316866	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tDPNpxRGEUJv"
+1593112318690	Marionette	INFO	Listening on port 43673
+1593112318771	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593112324967	Marionette	INFO	Stopped listening on port 34243
+1593112325252	Marionette	INFO	Stopped listening on port 43451
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593112331470	Marionette	INFO	Stopped listening on port 42161
+1593112344102	Marionette	INFO	Stopped listening on port 33771
+[Child 27282, MediaDecoderStateMachine #1] WARNING: 7f641be27570 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 27282, MediaDecoderStateMachine #1] WARNING: Decoder=7f641c55cc00 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 27282, MediaDecoderStateMachine #1] WARNING: 7f6417d97d50 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 27282, MediaDecoderStateMachine #1] WARNING: Decoder=7f6414fad400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 27282, MediaDecoderStateMachine #1] WARNING: Decoder=7f6414fad400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 27282, MediaDecoderStateMachine #1] WARNING: Decoder=7f6414fad400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 27282, MediaDecoderStateMachine #1] WARNING: 7f64180742c0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 27282, MediaDecoderStateMachine #1] WARNING: Decoder=7f641751b400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 27282, MediaDecoderStateMachine #1] WARNING: 7f6410dc2710 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 27282, MediaDecoderStateMachine #1] WARNING: Decoder=7f6411af1c00 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 27282, MediaDecoderStateMachine #1] WARNING: Decoder=7f6411af1c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 27282, MediaDecoderStateMachine #1] WARNING: Decoder=7f6411af1c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 27282, MediaDecoderStateMachine #1] WARNING: Decoder=7f6411af1c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+1593112421300	Marionette	INFO	Stopped listening on port 43673
