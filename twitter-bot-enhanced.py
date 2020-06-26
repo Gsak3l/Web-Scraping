@@ -1,3 +1,5 @@
+import os
+
 from pip._vendor.distlib.compat import raw_input
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -157,7 +159,10 @@ class Sign_Up_Bot:
                 bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div['
                                           '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div').click()
                 time.sleep(2)
-                # skipping the add profile picture option
+                # adding picture option
+                bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[3]/div/div/div/div[3]/div').send_keys('images/image1.jpg')
+                time.sleep(1)
+                # pressing the next button
                 bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div['
                                           '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/div/span/span').click()
                 time.sleep(2)
