@@ -44,7 +44,7 @@ class Sign_Up_Bot:
     def get_full_name(self, full_name_list):
         bot = self.bot
         bot.get("https://www.behindthename.com/random/")
-        time.sleep(3)
+        time.sleep(2)
         bot.find_element_by_xpath(
             '/html/body/div[2]/div/div/center/form/div/input').click()  # clicking generate name button
         local_full_name = bot.find_element_by_xpath(
@@ -160,7 +160,13 @@ class Sign_Up_Bot:
                                           '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div').click()
                 time.sleep(2)
                 # adding picture option
-                bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[3]/div/div/div/div[3]/div').send_keys('images/image1.jpg')
+                bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div['
+                                          '2]/div/div/div[2]/div[2]/div/div/div[3]/div/div/div/div['
+                                          '3]/input').send_keys('/home/gsak3l/Documents/Projects/Web-Scraping/Images'
+                                                                '/image1.jpg')  # uploading the picture
+                time.sleep(0.5)
+                bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div['
+                                          '1]/div/div/div/div[3]/div').click()  # pressing apply on the aspect ratio
                 time.sleep(1)
                 # pressing the next button
                 bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div['
