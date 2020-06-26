@@ -5059,3 +5059,156 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mi
 [Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
 [Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb0600cf870 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
 [Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb061d02a10 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb061d03640 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb061d03cc0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb05e784870 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb061d0c7a0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb061d0d160 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb061d0db20 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb061d3b2c0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb061d3c160 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb061d3cd90 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb062e53ae0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb062e54160 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb062e54d90 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb062ec36d0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb062ec3e20 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb062ed91f0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 26399, MediaDecoderStateMachine #1] WARNING: 7fb062eda3d0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 26399, MediaDecoderStateMachine #1] WARNING: Decoder=7fb059adb400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5E0006,name=PIdleScheduler::Msg_Schedule) Channel error: cannot send/recv
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1593196936700	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BkKsPj8xlp4z"
+1593196938697	Marionette	INFO	Listening on port 40697
+1593196938710	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593196938815	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.24krsq5szkZF"
+1593196940784	Marionette	INFO	Listening on port 41859
+1593196940879	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593196940913	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Q6giMDJHwyIQ"
+1593196942760	Marionette	INFO	Listening on port 40869
+1593196942817	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593196943856	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QjWVUnY8zLmt"
+1593196945722	Marionette	INFO	Listening on port 38109
+1593196945760	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593196945788	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8aH1xMun4laG"
+1593196947579	Marionette	INFO	Listening on port 45337
+1593196947594	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Child 28840, MediaDecoderStateMachine #1] WARNING: 7f7d87929160 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 28840, MediaDecoderStateMachine #1] WARNING: Decoder=7f7d7f78ac00 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+1593196954168	Marionette	INFO	Stopped listening on port 38109
+1593196954254	Marionette	INFO	Stopped listening on port 40869
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593196964539	Marionette	INFO	Stopped listening on port 40697
+[Child 28840, MediaDecoderStateMachine #1] WARNING: 7f7d7f797cc0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 28840, MediaDecoderStateMachine #1] WARNING: Decoder=7f7d7f78ac00 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+1593196984810	Marionette	INFO	Stopped listening on port 41859
+1593197006505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.u4tZmmaV0Fdg"
+1593197008394	Marionette	INFO	Listening on port 32855
+1593197008410	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593197008440	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IhaKsJJzPBh5"
+1593197008671	Marionette	INFO	Stopped listening on port 45337
+1593197010355	Marionette	INFO	Listening on port 36201
+1593197010445	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593197010545	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kqzQzC1i2DGH"
+1593197012345	Marionette	INFO	Listening on port 43827
+1593197012350	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593197013376	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HR78cjEedquZ"
+1593197015173	Marionette	INFO	Listening on port 46311
+1593197015188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593197015222	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ahdzWOPQ7ilk"
+1593197017104	Marionette	INFO	Listening on port 36859
+1593197017126	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Child 30464, MediaDecoderStateMachine #1] WARNING: 7fd88a6f2e20 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 30464, MediaDecoderStateMachine #1] WARNING: Decoder=7fd88fb0f800 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+1593197023695	Marionette	INFO	Stopped listening on port 43827
+1593197023695	Marionette	INFO	Stopped listening on port 46311
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593197028221	Marionette	INFO	Stopped listening on port 32855
+1593197042321	Marionette	INFO	Stopped listening on port 36201
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 30464, MediaDecoderStateMachine #1] WARNING: 7fd875939bb0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 30464, MediaDecoderStateMachine #1] WARNING: Decoder=7fd8759db800 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 30464, MediaDecoderStateMachine #1] WARNING: Decoder=7fd8759db800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 30464, MediaDecoderStateMachine #1] WARNING: 7fd8715cdbf0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 30464, MediaDecoderStateMachine #1] WARNING: Decoder=7fd86f4cd400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 30464, MediaDecoderStateMachine #1] WARNING: Decoder=7fd86f4cd400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 30464, MediaDecoderStateMachine #1] WARNING: 7fd86901e6d0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 30464, MediaDecoderStateMachine #1] WARNING: Decoder=7fd884c7cc00 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 30464, MediaDecoderStateMachine #1] WARNING: 7fd86b653bb0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 30464, MediaDecoderStateMachine #1] WARNING: Decoder=7fd8673e3400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 30464, MediaDecoderStateMachine #1] WARNING: 7fd875955160 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 30464, MediaDecoderStateMachine #1] WARNING: Decoder=7fd884c0e400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 30464, MediaDecoderStateMachine #1] WARNING: Decoder=7fd884c0e400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593197135291	Marionette	INFO	Stopped listening on port 36859
+1593197146154	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vNVqY3YIXC4w"
+1593197147978	Marionette	INFO	Listening on port 33715
+1593197148058	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593197148156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dVDYHJ9BvEHC"
+1593197150061	Marionette	INFO	Listening on port 39147
+1593197150234	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593197150266	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.n18HVsOovmn7"
+1593197152155	Marionette	INFO	Listening on port 33257
+1593197152170	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593197152199	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vzumB0wCugiB"
+1593197154111	Marionette	INFO	Listening on port 37735
+1593197154255	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593197154287	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.05qfk14qZIRq"
+1593197156162	Marionette	INFO	Listening on port 42915
+1593197156192	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Child 32478, MediaDecoderStateMachine #1] WARNING: 7ff1e68fb940 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 32478, MediaDecoderStateMachine #1] WARNING: Decoder=7ff1f31c4000 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+1593197162668	Marionette	INFO	Stopped listening on port 33257
+1593197163135	Marionette	INFO	Stopped listening on port 37735
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200624/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+1593197165412	Marionette	INFO	Stopped listening on port 33715
