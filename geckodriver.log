@@ -5212,3 +5212,38 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mi
 JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200624/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
 1593197165412	Marionette	INFO	Stopped listening on port 33715
+1593197193371	Marionette	INFO	Stopped listening on port 39147
+[Child 32478, MediaDecoderStateMachine #1] WARNING: 7ff1d9aca7a0 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 32478, MediaDecoderStateMachine #1] WARNING: Decoder=7ff1d0cb9c00 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 32478, MediaDecoderStateMachine #1] WARNING: Decoder=7ff1d0cb9c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 32478, MediaDecoderStateMachine #1] WARNING: Decoder=7ff1d0cb9c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 32478, MediaDecoderStateMachine #1] WARNING: Decoder=7ff1d0cb9c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 32478, MediaDecoderStateMachine #1] WARNING: 7ff1ced7a160 OpenCubeb() failed to init cubeb: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/AudioStream.cpp, line 328
+[Child 32478, MediaDecoderStateMachine #1] WARNING: Decoder=7ff1c5bec400 [OnMediaSinkAudioError]: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3764
+[Child 32478, MediaDecoderStateMachine #1] WARNING: Decoder=7ff1c5bec400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 32478, MediaDecoderStateMachine #1] WARNING: Decoder=7ff1c5bec400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+[Child 32478, MediaDecoderStateMachine #1] WARNING: Decoder=7ff1c5bec400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
+1593197394968	Marionette	INFO	Stopped listening on port 42915
+1593528872030	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZzPlUzSWcvSI"
+1593528873811	Marionette	INFO	Listening on port 35055
+1593528873834	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593528874860	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.icaueXLQdPZ7"
+1593528876641	Marionette	INFO	Listening on port 38817
+1593528876664	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593528876692	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cXhxL6temQyn"
+1593528878549	Marionette	INFO	Listening on port 44173
+1593528878596	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593528878625	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.STKPTOs63Q5g"
+1593528880472	Marionette	INFO	Listening on port 38369
+1593528880528	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593528880556	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cjywxUG96qbk"
+1593528882391	Marionette	INFO	Listening on port 44807
+1593528882460	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593528888491	Marionette	INFO	Stopped listening on port 44173
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593528889999	Marionette	INFO	Stopped listening on port 38369
+1593528890836	Marionette	INFO	Stopped listening on port 35055
+1593528907414	Marionette	INFO	Stopped listening on port 38817
+1593528954292	Marionette	INFO	Stopped listening on port 44807
