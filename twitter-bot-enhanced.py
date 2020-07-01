@@ -53,9 +53,18 @@ class Sign_Up_Bot:
     def get_profile_picture(self):
         bot = self.bot
         bot.get('https://generated.photos/faces/')
+        # cookie thing
+        bot.find_element_by_xpath('/html/body/div[2]/div[2]/a[1]').click()
+        # loading more and more faces for 5 times
         for i in range(5):
             bot.find_element_by_xpath('/html/body/div[1]/div/div/div/div/main/div[2]/div/button/span').click()
-            time.sleep(1)
+            time.sleep(1.5)
+        # finding the random image and the src
+        img = bot.find_element_by_xpath(
+            '/html/body/div[1]/div/div/div/div/main/div[1]/div[' + str(randint(1, 180)) + ' ]/a/img')
+        src = img.get_attribute('src')
+        url_req.urlretrieve(src, 'image.png')  # this should overwrite the existing image every time
+        bot.close()
 
     def get_password(self, password_list):
         bot = self.bot
