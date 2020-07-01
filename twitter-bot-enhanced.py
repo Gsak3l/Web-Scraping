@@ -1,5 +1,6 @@
 import multiprocessing
 import time
+import urllib.request as url_req
 from random import randint
 
 from selenium import webdriver
@@ -51,9 +52,10 @@ class Sign_Up_Bot:
 
     def get_profile_picture(self):
         bot = self.bot
-        bot.get('https://generated.photos/faces/young-adult/joy')
-        bot.find_element_by_xpath(
-            '/html/body/div[1]/div/div/div/div/main/div[1]/div[' + str(randint(1, 30)) + ']/a/img').click()
+        bot.get('https://generated.photos/faces/')
+        for i in range(5):
+            bot.find_element_by_xpath('/html/body/div[1]/div/div/div/div/main/div[2]/div/button/span').click()
+            time.sleep(1)
 
     def get_password(self, password_list):
         bot = self.bot
