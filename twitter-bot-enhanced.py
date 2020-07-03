@@ -1,10 +1,8 @@
 import multiprocessing
 import time
 from random import randint
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
-from selenium.webdriver.common.keys import Keys
 
 manager = multiprocessing.Manager()
 full_name = manager.list()
@@ -28,6 +26,7 @@ class Sign_Up_Bot:
         local_verification_code = ""
         flag = True
         while flag:
+            # noinspection PyBroadException
             try:
                 # trying to get the email code that tweeter will send us
                 local_verification_code = bot.find_element_by_xpath(
@@ -195,7 +194,7 @@ class Sign_Up_Bot:
                                           '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/div').click()
                 time.sleep(2)
                 # following some accounts
-                for i in range(3, randint(3, 10)):
+                for i in range(3, randint(4, 10)):
                     bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/'
                                               'div[2]/div[2]/div/div/div[3]/section/div/div/div/div[' + str(i) +
                                               ']/div/div/div/div[2]/div[1]/div[2]/div').click()

@@ -5502,3 +5502,280 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mi
 [Child 10704, MediaDecoderStateMachine #1] WARNING: Decoder=7ffabee8c000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
 [Child 10704, MediaDecoderStateMachine #1] WARNING: Decoder=7ffabee8c000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-PX6VQo/firefox-77.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3370
 1593754314600	Marionette	INFO	Stopped listening on port 43139
+1593754422850	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ELWfgKUMUDc4"
+1593754424768	Marionette	INFO	Listening on port 41069
+1593754424917	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754424958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tDipKv1YZo9R"
+1593754426795	Marionette	INFO	Listening on port 37915
+1593754426863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754427890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.veXpWNmTfHNE"
+1593754429733	Marionette	INFO	Listening on port 33183
+1593754429794	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754429824	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TZ6wX0uzgJS6"
+1593754431698	Marionette	INFO	Listening on port 34443
+1593754431728	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754432753	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gKflaCw3dYXW"
+1593754434621	Marionette	INFO	Listening on port 45739
+1593754434657	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754434686	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KDoNmZpjaA6B"
+1593754436521	Marionette	INFO	Listening on port 41635
+1593754436590	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593754440201	Marionette	INFO	Stopped listening on port 41635
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1593754447133	Marionette	INFO	Stopped listening on port 33183
+1593754447227	Marionette	INFO	Stopped listening on port 34443
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://sassycaptions.com/OneSignalSDKWorker.js.php for scope https://sassycaptions.com/ encountered an error during installation.
+JavaScript error: https://eus.rubiconproject.com/usync.html?p=17632&endpoint=us-east, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1593754468272	Marionette	INFO	Stopped listening on port 41069
+1593754470912	Marionette	INFO	Stopped listening on port 45739
+1593754470932	Marionette	INFO	Stopped listening on port 37915
+1593754483598	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dNBhBzp1nqVv"
+1593754485448	Marionette	INFO	Listening on port 37557
+1593754485503	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754485540	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uubXkmozWMa2"
+1593754487543	Marionette	INFO	Listening on port 37319
+1593754487719	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754487774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pRDUsyBbKW1M"
+1593754489878	Marionette	INFO	Listening on port 36633
+1593754489885	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754489998	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aREkAULZidq1"
+1593754492003	Marionette	INFO	Listening on port 37395
+1593754492109	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754492147	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Od2hFTew8zTx"
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x200072,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380035,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 18244, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38005B,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+[Parent 18244, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38005B,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+1593754494092	Marionette	INFO	Listening on port 46677
+1593754494151	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380062,name=PContent::Msg_RefreshScreens) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380045,name=PContent::Msg_SetXPCOMProcessAttributes) Channel error: cannot send/recv
+
+[Parent 18244, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380035,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 18244, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38001C,name=PContent::Msg_RegisterChrome) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380034,name=PContent::Msg_RegisterStringBundles) Channel error: cannot send/recv
+
+[Parent 18244, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38003E,name=PContent::Msg_AppInfo) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38003F,name=PContent::Msg_RemoteType) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38001A,name=PContent::Msg_PScriptCacheConstructor) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380050,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380050,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380050,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380050,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380050,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38000B,name=PContent::Msg_InitRendering) Channel error: cannot send/recv
+
+[Parent 18244, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380010,name=PContent::Msg_SetProcessSandbox) Channel error: cannot send/recv
+
+[Parent 18244, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380042,name=PContent::Msg_InitJSActorInfos) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380065,name=PContent::Msg_SetPluginList) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006B,name=PContent::Msg_SetInputEventQueueEnabled) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380009,name=PContent::Msg_InitProcessHangMonitor) Channel error: cannot send/recv
+
+[Parent 18244, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38000A,name=PContent::Msg_InitProfiler) Channel error: cannot send/recv
+
+[Parent 18244, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-PX6VQo/firefox-77.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380061,name=PContent::Msg_SetPermissionsWithKey) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38005B,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: chrome://browser/content/browser.js, line 7823: TypeError: browser.messageManager is null
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  SessionStore: flushing all windows
+          Phase: quit-application-granted
+          State: {"total":-1,"current":-1}
+WARNING: TypeError: mm is null
+WARNING: flush@resource:///modules/sessionstore/TabStateFlusher.jsm:97:5
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:127:28
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:31:36
+flushAllWindowsAsync@resource:///modules/sessionstore/SessionStore.jsm:2287:50
+ssi_onQuitApplicationGranted/<@resource:///modules/sessionstore/SessionStore.jsm:2211:32
+trigger@resource://gre/modules/AsyncShutdown.jsm:726:23
+_wait@resource://gre/modules/AsyncShutdown.jsm:878:15
+wait@resource://gre/modules/AsyncShutdown.jsm:859:34
+observe@resource://gre/modules/AsyncShutdown.jsm:536:10
+observe@resource:///modules/ContentCrashHandlers.jsm:151:28
+
+JavaScript error: resource:///modules/sessionstore/TabStateFlusher.jsm, line 97: TypeError: mm is null
+1593754495490	Marionette	INFO	Stopped listening on port 46677
+1593754505682	Marionette	INFO	Stopped listening on port 37395
+1593754505731	Marionette	INFO	Stopped listening on port 37557
+1593754507788	Marionette	INFO	Stopped listening on port 36633
+1593754507808	Marionette	INFO	Stopped listening on port 37319
+1593754682398	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JU7mi18hsFFP"
+1593754684220	Marionette	INFO	Listening on port 46715
+1593754684302	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754684330	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iJEiKDSewOeq"
+1593754686160	Marionette	INFO	Listening on port 39685
+1593754686234	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754686262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9DHFQqwOcc9e"
+1593754688089	Marionette	INFO	Listening on port 36833
+1593754688166	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754688194	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9XLUl4kQbw5Q"
+1593754690040	Marionette	INFO	Listening on port 41195
+1593754690098	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754690128	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EX1Ki7HSYKyw"
+1593754691992	Marionette	INFO	Listening on port 43345
+1593754692032	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754692061	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0O2FyIlEu3wi"
+1593754694100	Marionette	INFO	Listening on port 35389
+1593754694208	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754695652	Marionette	INFO	Stopped listening on port 35389
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1593754700355	Marionette	INFO	Stopped listening on port 36833
+1593754701422	Marionette	INFO	Stopped listening on port 41195
+1593754701606	Marionette	INFO	Stopped listening on port 46715
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+1593754719442	Marionette	INFO	Stopped listening on port 39685
+1593754783454	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BLT3vwjJJjpT"
+1593754785237	Marionette	INFO	Listening on port 41087
+1593754785259	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754786287	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iYc58Hc8ynf2"
+1593754786632	Marionette	INFO	Stopped listening on port 43345
+1593754788151	Marionette	INFO	Listening on port 34889
+1593754788191	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754789216	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aJNPqGySrynj"
+1593754791035	Marionette	INFO	Listening on port 39067
+1593754791120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754791222	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CG26YPgzd1EB"
+1593754793156	Marionette	INFO	Listening on port 40349
+1593754793261	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754793296	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.eERXADBCqzwT"
+1593754795144	Marionette	INFO	Listening on port 39767
+1593754795200	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754795229	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Kv7oYoccRmlT"
+1593754797082	Marionette	INFO	Listening on port 41035
+1593754797133	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593754798409	Marionette	INFO	Stopped listening on port 41035
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1593754801909	Marionette	INFO	Stopped listening on port 41087
+1593754803287	Marionette	INFO	Stopped listening on port 39067
+1593754804226	Marionette	INFO	Stopped listening on port 40349
+1593754822480	Marionette	INFO	Stopped listening on port 34889
+1593754974187	Marionette	INFO	Stopped listening on port 39767
+1593755135910	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MyCFq5vRRCEw"
+1593755137783	Marionette	INFO	Listening on port 42295
+1593755137814	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593755137844	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CWPJCDui5cbx"
+1593755139729	Marionette	INFO	Listening on port 36585
+1593755139748	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593755139786	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.21mt7aIlRaWP"
+1593755141682	Marionette	INFO	Listening on port 40785
+1593755141693	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593755141721	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OLLvPsAztMIB"
+1593755143588	Marionette	INFO	Listening on port 36331
+1593755143625	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593755144650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yU04QNiwPC4w"
+1593755146522	Marionette	INFO	Listening on port 45561
+1593755146554	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593755147582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.G6OSF2SI2G9s"
+1593755149428	Marionette	INFO	Listening on port 43241
+1593755149486	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593755151110	Marionette	INFO	Stopped listening on port 43241
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1593755155827	Marionette	INFO	Stopped listening on port 40785
+1593755156461	Marionette	INFO	Stopped listening on port 36331
+1593755157442	Marionette	INFO	Stopped listening on port 42295
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+1593755174799	Marionette	INFO	Stopped listening on port 36585
+1593755296314	Marionette	INFO	Stopped listening on port 45561
