@@ -183,7 +183,8 @@ class Sign_Up_Bot:
                                           '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/div/span/span').click()
                 time.sleep(2)
                 # adding random interests
-                for i in range(randint(5, 12)):
+                random_value = randint(5, 12)
+                for i in range(3, random_value):
                     bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div['
                                               '2]/div/div/div[2]/div[2]/div/div/div[4]/div[' + str(randint(1, 8))
                                               + ']/div[2]/div[' + str(randint(1, 5)) + ']').click()
@@ -210,10 +211,11 @@ class Sign_Up_Bot:
                 flag = False
                 # and the account has been created
                 f = open("accounts.txt", "a+")
-                f.write("Full Name: " + full_name[0] + " || Email: " + email[0] + " || Password: " + password[0] + "\n")
+                f.write("Email: " + email[0] + " || Password: " + password[0] + "\n")
                 f.close()
         bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[2]/nav/a[1]').click()
         time.sleep(2)
+        bot.close()
 
 
 if __name__ == '__main__':
