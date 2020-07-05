@@ -1,5 +1,7 @@
 import multiprocessing
+import os
 import time
+import urllib.request
 from random import randint
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
@@ -13,7 +15,42 @@ bio = manager.list()
 errors = manager.list()
 
 
-# noinspection PyBroadException
+class Tweet_Bot:
+    def __init__(self):  # constructor
+        self.bot = webdriver.Firefox()
+
+    def tweet_inspirational_image(self, acc_email, acc_pwd):
+        bot = self.bot
+        bot.get('https://inspirobot.me/')  # the website that I am getting the image
+        bot.find_element_by_xpath('/html/body/div[2]/div[1]/div[1]/div[2]/div/div[2]').click()
+        time.sleep(1.5)
+        # getting the src of the image
+        image_src = bot.find_element_by_xpath('/html/body/div[2]/div[1]/div[1]/div[1]/img').get_attribute('src')
+        # changing the user agent because the site blocked the urllib requests in every other case
+        opener = urllib.request.build_opener()
+        opener.addheaders = [('User-Agent',
+                              'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) '
+                              'Chrome/36.0.1941.0 Safari/537.36')]
+        urllib.request.install_opener(opener)
+        urllib.request.urlretrieve(image_src, 'image.png')
+        # twitter
+        bot.get('https://twitter.com/explore')
+        time.sleep(1)
+        bot.find_element_by_xpath(
+            '/html/body/div[1]/div/div/div[2]/header/div[2]/div[1]/div/div[2]/div[1]/div[1]/a').click()
+        # filling username and password
+        bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[1]/label/div/div['
+                                  '2]/div/input').send_keys(acc_email)
+        bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[2]/label/div/div['
+                                  '2]/div/input').send_keys(acc_pwd)
+        # pressing the log in button
+        bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[3]/div/div').click()
+        time.sleep(1)
+        # pressing the tweet button
+        bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[3]/a/div').click()
+        time.sleep(0.3)
+
+
 class Sign_Up_Bot:
     def __init__(self):  # constructor
         self.bot = webdriver.Firefox()  # opens firefox in this case
@@ -131,8 +168,8 @@ class Sign_Up_Bot:
                     try:
                         for i in range(1, 4):
                             bot.find_element_by_xpath(
-                                '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/'
-                                'div/div/label[' + str(i) + ']/div[2]/input').click()
+                                '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div['
+                                '2]/div[2]/div/div/label[' + str(i) + ']/div[2]/input').click()
                             time.sleep(0.3)
                     except:
                         pass
@@ -167,12 +204,10 @@ class Sign_Up_Bot:
                     bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div['
                                               '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div').click()
                     time.sleep(2)
-                    # adding picture option
+                    # adding picture option with a relative path, the stock path is the project path
                     bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div['
                                               '2]/div/div/div[2]/div[2]/div/div/div[3]/div/div/div/div['
-                                              '3]/input').send_keys('/home/gsak3l/Documents/Projects/Web-Scraping'
-                                                                    '/image.png')
-                    # didn't manage to make it work with relative paths, only with absolute, you have to change this path
+                                              '3]/input').send_keys(os.getcwd() + "/image.png")
                     # to match the path of the image from your computer
                     time.sleep(0.5)
                     bot.find_element_by_xpath(
@@ -244,37 +279,54 @@ class Sign_Up_Bot:
                 except:
                     error_list.append(False)
                     bot.close()
+        bot.find_element_by_xpath(
+            '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div['
+            '1]/div/div/div/form/div[1]/div/div/div[2]/input').click()
+        time.sleep(0.2)
+        bot.find_element_by_xpath(
+            '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div['
+            '1]/div/div/div/form/div[1]/div/div/div[2]/input').send_keys('@MiketheGod10')
+        time.sleep(2)
+        bot.find_element_by_xpath('/html/body/div/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div['
+                                  '1]/div/div/div/form/div[2]/div/div[4]/div/li/div').click()
+        time.sleep(0.5)
+        bot.find_element_by_xpath(
+            '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/div/div/div[1]/div[2]/div['
+            '1]/div/div[2]/div/div').click()
         bot.close()
 
 
 if __name__ == '__main__':
     # creating different bots for different tasks
-    bot1 = Sign_Up_Bot()
-    bot2 = Sign_Up_Bot()
-    bot3 = Sign_Up_Bot()
-    bot4 = Sign_Up_Bot()
-    bot5 = Sign_Up_Bot()
-    bot6 = Sign_Up_Bot()
-    process1 = multiprocessing.Process(target=bot1.get_full_name, args=(full_name,))
-    process2 = multiprocessing.Process(target=bot2.get_email, args=(email,))
-    process3 = multiprocessing.Process(target=bot3.get_password, args=(password,))
-    process4 = multiprocessing.Process(target=bot4.get_bio, args=(bio,))
-    process5 = multiprocessing.Process(target=bot5.create_twitter_account, args=(errors,))
-    process6 = multiprocessing.Process(target=bot6.get_profile_picture, )
-    process1.start()
-    process2.start()
-    process3.start()
-    process4.start()
-    process5.start()
-    process6.start()
-    process1.join()
-    process2.join()
-    process3.join()
-    process4.join()
-    process5.join()
-    process6.join()
+    # bot1 = Sign_Up_Bot()
+    # bot2 = Sign_Up_Bot()
+    # bot3 = Sign_Up_Bot()
+    # bot4 = Sign_Up_Bot()
+    # bot5 = Sign_Up_Bot()
+    # bot6 = Sign_Up_Bot()
+    # process1 = multiprocessing.Process(target=bot1.get_full_name, args=(full_name,))
+    # process2 = multiprocessing.Process(target=bot2.get_email, args=(email,))
+    # process3 = multiprocessing.Process(target=bot3.get_password, args=(password,))
+    # process4 = multiprocessing.Process(target=bot4.get_bio, args=(bio,))
+    # process6 = multiprocessing.Process(target=bot5.get_profile_picture, )
+    # process5 = multiprocessing.Process(target=bot6.create_twitter_account, args=(errors,))
+    # process1.start()
+    # process2.start()
+    # process3.start()
+    # process4.start()
+    # process5.start()
+    # process6.start()
+    # process1.join()
+    # process2.join()
+    # process3.join()
+    # process4.join()
+    # process5.join()
+    # process6.join()
+    # tweeting
+    bot7 = Tweet_Bot()
+    bot7.tweet_inspirational_image('quantina165@vteensp.com', 'fC#o$I7MQ8w&')
 
-# websites used for this autogenerated-twitter like bot
+# websites used for this autogenerated-twitter bot
 # https://tempail.com/en/ temporary email address
 # https://www.behindthename.com/random/ random name
 # https://nordpass.com/password-generator/ random password
@@ -282,4 +334,5 @@ if __name__ == '__main__':
 # https://twitter.com/explore twitter
 # https://thispersondoesnotexist.com/image random face generator
 # https://writingexercises.co.uk/random-images.php? random image generator
+# https://inspirobot.me/ random inspirational image quotes
 # please note, that twitter might ask some of these accounts to fill a phone number
