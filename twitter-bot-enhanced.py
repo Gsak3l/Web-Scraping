@@ -27,10 +27,12 @@ class Tweet_Bot:
         quote += "\n"  # breaking line
         # getting the top hashtags for the day
         bot.get('https://www.tweeplers.com/hashtags/?cc=WORLD')
-        for i in range(2, 10):
-            if i != 7:
+        hashtag_counter = randint(1, 10)
+        for i in range(hashtag_counter):
+            num = randint(2, 21)
+            if num != 7:
                 quote += bot.find_element_by_xpath(
-                    '/html/body/div[1]/div/div[1]/div[1]/div[2]/div[' + str(i) + ']/div[2]/a[1]/b').text + "\n"
+                    '/html/body/div[1]/div/div[1]/div[1]/div[2]/div[' + str(num) + ']/div[2]/a[1]/b').text + "\n"
         # twitter
         bot.get('https://twitter.com/explore')
         time.sleep(1)

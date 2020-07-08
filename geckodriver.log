@@ -8666,3 +8666,22 @@ IPDL protocol error: Handler returned error code!
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 1594233460576	Marionette	INFO	Stopped listening on port 41487
+1594233703969	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.a8C7toIwlgdE"
+1594233705923	Marionette	INFO	Listening on port 45697
+1594233705973	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594233719952	Marionette	INFO	Stopped listening on port 45697
+1594233720395	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Mew2zemWNF38"
+1594233722242	Marionette	INFO	Listening on port 41665
+1594233722300	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594233801254	Marionette	INFO	Stopped listening on port 41665
+1594233922859	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Lpq86VbTcxom"
+1594233924735	Marionette	INFO	Listening on port 38561
+1594233924763	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://eus.rubiconproject.com/usync.html?p=synacor_xapi&endpoint=us-east, line 12: SecurityError: The operation is insecure.
+1594233989034	Marionette	INFO	Stopped listening on port 38561
