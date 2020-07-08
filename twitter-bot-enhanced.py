@@ -24,6 +24,13 @@ class Tweet_Bot:
         bot.get('https://randomwordgenerator.com/motivational-quote.php')  # the website the quote
         time.sleep(1.5)  # waiting for the quote to appear
         quote = bot.find_element_by_xpath('/html/body/div[2]/div/div[3]/div/div/div[2]/div/ol/li/div/span').text
+        quote += "\n"  # breaking line
+        # getting the top hashtags for the day
+        bot.get('https://www.tweeplers.com/hashtags/?cc=WORLD')
+        for i in range(2, 10):
+            if i != 7:
+                quote += bot.find_element_by_xpath(
+                    '/html/body/div[1]/div/div[1]/div[1]/div[2]/div[' + str(i) + ']/div[2]/a[1]/b').text + "\n"
         # twitter
         bot.get('https://twitter.com/explore')
         time.sleep(1)
@@ -40,6 +47,12 @@ class Tweet_Bot:
         # pressing the tweet button
         bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[3]/a/div').click()
         time.sleep(0.3)
+        bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div['
+                                  '3]/div/div/div/div[1]/div/div/div/div/div[2]/div[1]/div/div/div/div/div/div/div/'
+                                  'div/div/div[1]/div/div/div/div[2]/div').send_keys(quote)
+        # twitting the quote
+        bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div['
+                                  '3]/div/div/div/div[1]/div/div/div/div/div[2]/div[4]/div/div/div[2]/div[4]').click()
 
 
 class Sign_Up_Bot:
