@@ -8608,3 +8608,9 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mi
 1593936603270	Marionette	INFO	Listening on port 34249
 1593936603290	Marionette	WARN	TLS certificate errors will be ignored for this session
 1593937188687	Marionette	INFO	Stopped listening on port 34249
+1594232222026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.C2sPQiJueUbb"
+1594232223852	Marionette	INFO	Listening on port 37873
+1594232223930	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594232238356	Marionette	INFO	Stopped listening on port 37873
