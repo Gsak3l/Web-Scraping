@@ -8685,3 +8685,13 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: https://eus.rubiconproject.com/usync.html?p=synacor_xapi&endpoint=us-east, line 12: SecurityError: The operation is insecure.
 1594233989034	Marionette	INFO	Stopped listening on port 38561
+1594284189133	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.r7JDUApuf4ju"
+1594284191066	Marionette	INFO	Listening on port 37787
+1594284191137	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594284195413	Marionette	INFO	Stopped listening on port 37787
+1594284569330	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tQSgg48QaAig"
+1594284571216	Marionette	INFO	Listening on port 45471
+1594284571234	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594284667508	Marionette	INFO	Stopped listening on port 45471
