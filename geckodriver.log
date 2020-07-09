@@ -8695,3 +8695,240 @@ JavaScript error: https://eus.rubiconproject.com/usync.html?p=synacor_xapi&endpo
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 1594284667508	Marionette	INFO	Stopped listening on port 45471
+1594284771709	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Yzzt3LpxCmc2"
+1594284773556	Marionette	INFO	Listening on port 33229
+1594284773613	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+[Child 21323, MediaDecoderStateMachine #1] WARNING: 7fe122ed77a0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 21323, MediaDecoderStateMachine #1] WARNING: Decoder=7fe122fbc400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 21323, MediaDecoderStateMachine #1] WARNING: 7fe1173d61f0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 21323, MediaDecoderStateMachine #1] WARNING: Decoder=7fe122fbc400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 21323, MediaDecoderStateMachine #1] WARNING: 7fe1173d74a0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 21323, MediaDecoderStateMachine #1] WARNING: Decoder=7fe122fbc400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 21323, MediaDecoderStateMachine #1] WARNING: 7fe1173d61f0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 21323, MediaDecoderStateMachine #1] WARNING: Decoder=7fe122fbc400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 21323, MediaDecoderStateMachine #1] WARNING: 7fe1173d61f0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 21323, MediaDecoderStateMachine #1] WARNING: Decoder=7fe122fbc400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 21323, MediaDecoderStateMachine #1] WARNING: 7fe1173d74a0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 21323, MediaDecoderStateMachine #1] WARNING: Decoder=7fe122fbc400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 21323, MediaDecoderStateMachine #1] WARNING: 7fe1173d7230 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 21323, MediaDecoderStateMachine #1] WARNING: Decoder=7fe122fbc400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 21323, MediaDecoderStateMachine #1] WARNING: 7fe1173d7230 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 21323, MediaDecoderStateMachine #1] WARNING: Decoder=7fe122fbc400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1594284977344	Marionette	INFO	Stopped listening on port 33229
+1594284982463	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XgXoyPss8d3d"
+1594284984337	Marionette	INFO	Listening on port 33843
+1594284984369	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1594285147845	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FGNuy2WdyFHL"
+1594285149675	Marionette	INFO	Listening on port 44823
+1594285149748	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1594285154328	Marionette	INFO	Stopped listening on port 33843
+1594285157216	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1594285207640	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.he7VKzcjKw0E"
+1594285209511	Marionette	INFO	Listening on port 46615
+1594285209544	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594285211907	Marionette	INFO	Stopped listening on port 44823
+[Child 22724, MediaDecoderStateMachine #1] WARNING: 7f431378fc80 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 22724, MediaDecoderStateMachine #1] WARNING: Decoder=7f431de41400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1594285243582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uFyDPnYanjS0"
+1594285245476	Marionette	INFO	Listening on port 32899
+1594285245487	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594285250039	Marionette	INFO	Stopped listening on port 46615
+[Child 23104, MediaDecoderStateMachine #1] WARNING: 7f1169dfa570 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 23104, MediaDecoderStateMachine #1] WARNING: Decoder=7f11762d6c00 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 23104, MediaDecoderStateMachine #1] WARNING: 7f1169ca6050 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 23104, MediaDecoderStateMachine #1] WARNING: Decoder=7f1176fc8800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1594285461116	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.j1YL0T7djzyG"
+1594285462991	Marionette	INFO	Listening on port 41903
+1594285463020	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1594285467787	Marionette	INFO	Stopped listening on port 32899
+1594285470644	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1594285495994	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lU9F2kP8ZNQ7"
+1594285497854	Marionette	INFO	Listening on port 44201
+1594285497899	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594285500902	Marionette	INFO	Stopped listening on port 41903
+1594285505198	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+[Child 24019, MediaDecoderStateMachine #1] WARNING: 7f1cece7ebf0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 24019, MediaDecoderStateMachine #1] WARNING: Decoder=7f1cece0a000 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1594285519432	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jvuFVgrIrhop"
+1594285521305	Marionette	INFO	Listening on port 40875
+1594285521337	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594285524290	Marionette	INFO	Stopped listening on port 44201
+1594285528838	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+[Child 24397, MediaDecoderStateMachine #1] WARNING: 7fe159b9a980 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 24397, MediaDecoderStateMachine #1] WARNING: Decoder=7fe1641f5c00 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1594285562120	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.91Upj0VZ6buT"
+1594285564077	Marionette	INFO	Listening on port 41009
+1594285564125	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594285567065	Marionette	INFO	Stopped listening on port 40875
+[Child 24772, MediaDecoderStateMachine #1] WARNING: 7ff38fde4050 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 24772, MediaDecoderStateMachine #1] WARNING: Decoder=7ff39540c800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 24772, MediaDecoderStateMachine #1] WARNING: 7ff388605600 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 24772, MediaDecoderStateMachine #1] WARNING: Decoder=7ff39540c800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1594285652046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hgB2vbaeISTh"
+1594285653899	Marionette	INFO	Listening on port 46495
+1594285653950	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1594285658486	Marionette	INFO	Stopped listening on port 41009
+1594285661432	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+[Child 25176, MediaDecoderStateMachine #1] WARNING: 7f89f1f0d300 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 25176, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a0299ec00 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 25176, MediaDecoderStateMachine #1] WARNING: 7f89f1ed3a50 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 25176, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a0299f400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 25176, MediaDecoderStateMachine #1] WARNING: 7f89f1ad8600 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 25176, MediaDecoderStateMachine #1] WARNING: Decoder=7f89f16cf800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 25176, MediaDecoderStateMachine #1] WARNING: 7f89f6a454a0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 25176, MediaDecoderStateMachine #1] WARNING: Decoder=7f89ee1fd400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 25176, MediaDecoderStateMachine #1] WARNING: 7f8a06dd5090 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 25176, MediaDecoderStateMachine #1] WARNING: Decoder=7f89ee319000 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1594285689403	Marionette	INFO	Stopped listening on port 46495
