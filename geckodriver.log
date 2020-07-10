@@ -9005,3 +9005,46 @@ IPDL protocol error: Handler returned error code!
 [Child 28977, MediaDecoderStateMachine #1] WARNING: Decoder=7f3f8ef3a800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
 [Child 28977, MediaDecoderStateMachine #1] WARNING: 7f3f86df8bf0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
 [Child 28977, MediaDecoderStateMachine #1] WARNING: Decoder=7f3f88b4cc00 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1594364273139	Marionette	INFO	Stopped listening on port 36499
+1594364608574	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZbJr0w8Y6giQ"
+1594364610358	Marionette	INFO	Listening on port 33049
+1594364610378	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 30399, MediaDecoderStateMachine #1] WARNING: 7fa69cc91ef0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 30399, MediaDecoderStateMachine #1] WARNING: Decoder=7fa69347cc00 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1594364720037	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KO4u6IGq3jgJ"
+1594364721959	Marionette	INFO	Listening on port 38151
+1594364722041	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594364725126	Marionette	INFO	Stopped listening on port 33049
+1594364744502	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lnaVv1aPGFVT"
+1594364746114	Marionette	INFO	Stopped listening on port 38151
+1594364746414	Marionette	INFO	Listening on port 41267
+1594364746573	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594364809192	Marionette	INFO	Stopped listening on port 41267
+1594364810925	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.joMsYIYdSAG6"
+1594364812784	Marionette	INFO	Listening on port 44551
+1594364812830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594364877544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.g5xFC865yKqL"
+1594364879375	Marionette	INFO	Listening on port 45085
+1594364879449	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594364880522	Marionette	INFO	Stopped listening on port 44551
+1594364897478	Marionette	INFO	Stopped listening on port 45085
+1594365012972	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.quibiyG4LS7b"
+1594365014815	Marionette	INFO	Listening on port 38225
+1594365014877	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594365022709	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1594365051190	Marionette	INFO	Stopped listening on port 38225
+1594365668868	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jL8zgqvbcbGS"
+1594365670841	Marionette	INFO	Listening on port 41061
+1594365670969	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594365708986	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8dJPGS3TWA5B"
+1594365710819	Marionette	INFO	Listening on port 43599
+1594365710890	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594365712899	Marionette	INFO	Stopped listening on port 41061
+1594365736239	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ij5h68zNsDnj"
+1594365738150	Marionette	INFO	Listening on port 39199
+1594365738312	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594365742657	Marionette	INFO	Stopped listening on port 43599

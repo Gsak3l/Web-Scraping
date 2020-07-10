@@ -100,6 +100,24 @@ class Tweet_Bot:
         time.sleep(1)
         # cookie thing
         bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div/div/div/div/div/div[2]/div/span/span').click()
+        # scrolling by some pixels
+        bot.execute_script('window.scrollTo(0, 50)')
+        time.sleep(0.5)
+        # clicking the show more on the follow section
+        bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div['
+                                  '2]/div/div/div/div[4]/aside/a/div/span').click()
+        time.sleep(0.5)
+        # following random users
+        random_number = randint(10, 25)
+        for i in range(1, random_number):
+            try:
+                ran = str(randint(3, 10))
+                bot.find_element_by_xpath(
+                    '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/section/div/div/div/div[' + ran + ']/div/div/div/div[2]/div[1]/div[2]/div/div/span/span').click()
+                print(ran)
+                time.sleep(0.5)
+            except:
+                pass
 
 
 class Sign_Up_Bot:
