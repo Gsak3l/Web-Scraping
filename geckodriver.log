@@ -8932,3 +8932,76 @@ IPDL protocol error: Handler returned error code!
 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
 1594285689403	Marionette	INFO	Stopped listening on port 46495
+1594285722162	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hQrAKeV7WC6j"
+1594285723994	Marionette	INFO	Listening on port 35677
+1594285724066	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 25737, MediaDecoderStateMachine #1] WARNING: 7f5878fd0ef0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 25737, MediaDecoderStateMachine #1] WARNING: Decoder=7f588c6b7c00 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 25737, MediaDecoderStateMachine #1] WARNING: 7f5879007980 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 25737, MediaDecoderStateMachine #1] WARNING: Decoder=7f588c6b8800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 25737, MediaDecoderStateMachine #1] WARNING: 7f587995f390 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 25737, MediaDecoderStateMachine #1] WARNING: Decoder=7f58756f0000 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 25737, MediaDecoderStateMachine #1] WARNING: 7f58796fdef0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 25737, MediaDecoderStateMachine #1] WARNING: Decoder=7f5879987400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 25737, MediaDecoderStateMachine #1] WARNING: 7f587ea5dc80 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 25737, MediaDecoderStateMachine #1] WARNING: Decoder=7f588a2ba000 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 25737, MediaDecoderStateMachine #1] WARNING: 7f5878bfd2c0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 25737, MediaDecoderStateMachine #1] WARNING: Decoder=7f58756f6800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 25737, MediaDecoderStateMachine #1] WARNING: 7f58734d2bb0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 25737, MediaDecoderStateMachine #1] WARNING: Decoder=7f58756f2c00 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1594285779454	Marionette	INFO	Stopped listening on port 35677
+1594363594203	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ChW9T4OqbInB"
+1594363596066	Marionette	INFO	Listening on port 36183
+1594363596107	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 26627, MediaDecoderStateMachine #1] WARNING: 7f7c42da3640 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 26627, MediaDecoderStateMachine #1] WARNING: Decoder=7f7c43b23800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1594363637374	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uCa2fUh8W7Xf"
+1594363639283	Marionette	INFO	Listening on port 35445
+1594363639427	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594363642387	Marionette	INFO	Stopped listening on port 36183
+[Child 26995, MediaDecoderStateMachine #1] WARNING: 7f230d5b5ef0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 26995, MediaDecoderStateMachine #1] WARNING: Decoder=7f231d60ec00 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 26995, MediaDecoderStateMachine #1] WARNING: 7f230a5f97e0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 26995, MediaDecoderStateMachine #1] WARNING: Decoder=7f230fc0ac00 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 26995, MediaDecoderStateMachine #1] WARNING: 7f231d5f56d0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 26995, MediaDecoderStateMachine #1] WARNING: Decoder=7f230a608800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 26995, MediaDecoderStateMachine #1] WARNING: 7f230a5f87a0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 26995, MediaDecoderStateMachine #1] WARNING: Decoder=7f2308b56800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1594363710727	Marionette	INFO	Stopped listening on port 35445
+1594363712419	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CVtPNbDLJO2C"
+1594363714245	Marionette	INFO	Listening on port 38333
+1594363714324	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 27460, MediaDecoderStateMachine #1] WARNING: 7f8738604120 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 27460, MediaDecoderStateMachine #1] WARNING: Decoder=7f873eec6400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 27460, MediaDecoderStateMachine #1] WARNING: 7f8735ef5120 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 27460, MediaDecoderStateMachine #1] WARNING: Decoder=7f87249e8800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 27460, MediaDecoderStateMachine #1] WARNING: 7f871ec576d0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 27460, MediaDecoderStateMachine #1] WARNING: Decoder=7f87204b9000 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 27460, MediaDecoderStateMachine #1] WARNING: 7f87302706d0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 27460, MediaDecoderStateMachine #1] WARNING: Decoder=7f871cc88400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 27460, MediaDecoderStateMachine #1] WARNING: 7f871f2204a0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 27460, MediaDecoderStateMachine #1] WARNING: Decoder=7f87249df400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 27460, MediaDecoderStateMachine #1] WARNING: 7f871bff3a10 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 27460, MediaDecoderStateMachine #1] WARNING: Decoder=7f8717b9ac00 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1594363834522	Marionette	INFO	Stopped listening on port 38333
+1594363860984	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DyZxzpW0Skog"
+1594363862834	Marionette	INFO	Listening on port 46633
+1594363862888	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 28071, MediaDecoderStateMachine #1] WARNING: 7f7fd4c5bcc0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 28071, MediaDecoderStateMachine #1] WARNING: Decoder=7f7fe6e74800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1594363927503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZS3XchErX3qw"
+1594363929439	Marionette	INFO	Listening on port 35609
+1594363929507	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594363930015	Marionette	INFO	Stopped listening on port 46633
+[Child 28589, MediaDecoderStateMachine #1] WARNING: 7f1425713d50 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 28589, MediaDecoderStateMachine #1] WARNING: Decoder=7f142da1f800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1594363976160	Marionette	INFO	Stopped listening on port 35609
+1594363976480	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lVVjVEiipe54"
+1594363978385	Marionette	INFO	Listening on port 36499
+1594363978503	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 28977, MediaDecoderStateMachine #1] WARNING: 7f3fa6fa9640 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 28977, MediaDecoderStateMachine #1] WARNING: Decoder=7f3f9ef90400 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 28977, MediaDecoderStateMachine #1] WARNING: 7f3f8ed2e640 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 28977, MediaDecoderStateMachine #1] WARNING: Decoder=7f3f8ef3a800 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 28977, MediaDecoderStateMachine #1] WARNING: 7f3f86df8bf0 OpenCubeb() failed to init cubeb: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/AudioStream.cpp, line 331
+[Child 28977, MediaDecoderStateMachine #1] WARNING: Decoder=7f3f88b4cc00 [OnMediaSinkAudioError]: file /build/firefox-Y_mEAF/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3891
