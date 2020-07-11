@@ -108,18 +108,9 @@ class Tweet_Bot:
                                   '2]/div/div/div/div[4]/aside/a/div/span').click()
         time.sleep(0.5)
         # following random users
-        random_number = randint(10, 25)
-        for i in range(1, random_number):
-            try:
-                ran = str(randint(3, 10))
-                bot.find_element_by_xpath(
-                    '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/section/div/div/div/div[' + ran + ']/div/div/div/div[2]/div[1]/div[2]/div/div/span/span').click()
-                print(ran)
-                time.sleep(0.5)
-            except:
-                pass
 
 
+# noinspection PyBroadException
 class Sign_Up_Bot:
     def __init__(self):  # constructor
         self.bot = webdriver.Firefox()  # opens firefox in this case
@@ -197,143 +188,143 @@ class Sign_Up_Bot:
                         '/html/body/div[1]/div/div/div[2]/header/div[2]/div[1]/div/div[2]/div[1]/div[2]/a').click()
                     time.sleep(0.5)  # waiting for the form to appear
                     bot.find_element_by_xpath(
-                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/'
-                        'div[2]/div/div/div[4]/span').click()  # clicking the email option instead of phone
+                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div['
+                        '2]/div[2]/div/div/div[4]/span').click()  # clicking the email option instead of phone
                     # giving to the username input, the right value
                     bot.find_element_by_xpath(
-                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/'
-                        'div/div[2]/label/div/div[2]/div/input').send_keys(full_name[0])
+                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div['
+                        '2]/div[2]/div/div/div[2]/label/div/div[2]/div/input').send_keys(full_name[0])
                     time.sleep(0.5)
                     # giving to the email input the right value
                     bot.find_element_by_xpath(
-                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/'
-                        'div/div/div[3]/label/div/div[2]/div/input').send_keys(email[0])
+                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div['
+                        '2]/div[2]/div/div/div[3]/label/div/div[2]/div/input').send_keys(email[0])
                     time.sleep(1)
                     # adding the age on the fields
                     # month
                     select = Select(bot.find_element_by_xpath(
-                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div['
-                        '2]/div/div/div[5]/div[3]/div/div[1]/div[2]/select'))
+                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div['
+                        '2]/div[2]/div/div/div[5]/div[3]/div/div[1]/div[2]/select'))
                     select.select_by_value(str(randint(1, 12)))
                     time.sleep(0.2)
                     # day
-                    select = Select(bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div['
-                                                              '2]/div[2]/div/div/div[2]/div[2]/div/div/div[5]/div['
-                                                              '3]/div/div[2]/div[2]/select'))
+                    select = Select(bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div['
+                                                              '2]/div/div/div/div/div/div[2]/div[2]/div/div/div['
+                                                              '2]/div[2]/div/div/div[5]/div[3]/div/div[2]/div['
+                                                              '2]/select'))
                     select.select_by_value(str(randint(1, 30)))
                     time.sleep(0.2)
                     # year
-                    select = Select(bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div['
-                                                              '2]/div[2]/div/div/div[2]/div[2]/div/div/div[5]/div['
-                                                              '3]/div/div[3]/div[2]/select'))
+                    select = Select(bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div['
+                                                              '2]/div/div/div/div/div/div[2]/div[2]/div/div/div['
+                                                              '2]/div[2]/div/div/div[5]/div[3]/div/div[3]/div['
+                                                              '2]/select'))
                     select.select_by_value(str(randint(1960, 2001)))
                     time.sleep(0.5)
                     # clicking the next button at the top right corner to get to the next page
-                    bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div['
-                                              '2]/div/div/div[2] '
-                                              '/div[1]/div/div/div/div[3]/div').click()
+                    bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div['
+                                              '2]/div[2]/div/div/div[2]/div[1]/div/div/div/div[3]/div').click()
                     time.sleep(0.5)
                     # accepting some options like personalized ads etc
                     try:
                         for i in range(1, 4):
                             bot.find_element_by_xpath(
-                                '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div['
-                                '2]/div[2]/div/div/label[' + str(i) + ']/div[2]/input').click()
+                                '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div['
+                                '2]/div/div/div[2]/div[2]/div/div/label[' + str(i) + ']/div[2]/input').click()
                             time.sleep(0.3)
                     except:
                         pass
                     # clicking the next button at the top right corner to get to the next page
                     bot.find_element_by_xpath(
-                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/'
-                        'div[1]/div/div/div/div[3]/div').click()
+                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div['
+                        '2]/div[1]/div/div/div/div[3]/div').click()
                     time.sleep(0.5)
                     bot.find_element_by_xpath(  # clicking the final sign-up button
-                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div['
-                        '2]/div/div/div/div[5]/div').click()
+                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div['
+                        '2]/div[2]/div/div/div/div[5]/div').click()
                     flag2 = True
                     while flag2:
                         if len(verification_code) > 0:
                             time.sleep(0.5)
-                            bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div['
-                                                      '2]/div/div/div[2]/div[2]/div/div/div/div[2]/label/div'
-                                                      '/div[2]/div/input').send_keys(verification_code[0])
-                            bot.find_element_by_xpath(
-                                '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/'
-                                'div/div/div[2]/div[1]/div/div/div/div[3]/div').click()
+                            bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div['
+                                                      '2]/div[2]/div/div/div[2]/div[2]/div/div/div/div['
+                                                      '2]/label/div/div[2]/div/input').send_keys(verification_code[0])
                             time.sleep(0.5)
+                            bot.find_element_by_xpath(
+                                '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div['
+                                '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div').click()
                             flag2 = False
                     time.sleep(0.5)
                     # typing the password
-                    bot.find_element_by_xpath(
-                        '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/'
-                        'div[2]/div[2]/div/div/div[3]/div/label/div/div[2]/div/'
-                        'input').send_keys(password[0])
+                    bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div['
+                                              '2]/div[2]/div/div/div[2]/div[2]/div/div/div[3]/div/label/div/div['
+                                              '2]/div/input').send_keys(password[0])
                     time.sleep(2)
                     # clicking the next button at the top right corner to get to the next page
-                    bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div['
-                                              '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div').click()
+                    bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div['
+                                              '2]/div[2]/div/div/div[2]/div[1]/div/div/div/div[3]/div').click()
                     time.sleep(2)
                     # adding picture option with a relative path, the stock path is the project path
-                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div['
+                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div['
                                               '2]/div/div/div[2]/div[2]/div/div/div[3]/div/div/div/div['
                                               '3]/input').send_keys(os.getcwd() + "/image.png")
                     # to match the path of the image from your computer
                     time.sleep(0.5)
                     bot.find_element_by_xpath(
-                        '/html/body/div/div/div/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div['
+                        '/html/body/div/div/div/div[1]/div[2]/div[2]/div/div/div/div/div[2]/div[2]/div/div['
                         '1]/div/div/div/div[3]/div').click()  # pressing apply on the aspect ratio
                     time.sleep(1)
                     # pressing the next button
-                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div['
-                                              '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/div/span/span').click()
+                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div['
+                                              '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div').click()
                     time.sleep(2)
                     # adding the bio
                     bot.find_element_by_xpath(
-                        '//*[@id="react-root"]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/'
-                        'div/div[2]/div[2]/div/div/div[3]/label/div/div[2]/div'
-                        '/textarea').send_keys(bio[0])
+                        '/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div['
+                        '2]/div/div/div[3]/label/div/div[2]/div/textarea').send_keys(bio[0])
                     # pressing the next button
-                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div['
-                                              '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/div/span/span').click()
+                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div['
+                                              '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div').click()
                     time.sleep(2)
                     # adding random interests
                     random_value = randint(8, 12)
                     try:
                         for i in range(3, random_value):
-                            bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div['
-                                                      '2]/div/div/div[2]/div[2]/div/div/div[4]/div[' + str(
-                                randint(1, 8))
-                                                      + ']/div[2]/div[' + str(randint(1, 5)) + ']').click()
+                            bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div['
+                                                      '2]/div[2]/div/div/div[2]/div[2]/div/div/div[4]/div[' +
+                                                      str(randint(1, 8)) + ']/div[2]/div[' +
+                                                      str(randint(1, 5)) + ']').click()
                             time.sleep(0.3)
                     except:
                         pass
                     time.sleep(0.5)
                     # pressing the next button
-                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div['
-                                              '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/div').click()
+                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div['
+                                              '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div').click()
                     time.sleep(2)
                     # following some accounts
+                    random_value = randint(4, 10)
                     try:
-                        for i in range(3, randint(4, 10)):
+                        for i in range(1, random_value):
                             bot.find_element_by_xpath(
-                                '/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div/'
-                                'div[2]/div[2]/div/div/div[3]/section/div/div/div/div[' + str(i) +
-                                ']/div/div/div/div[2]/div[1]/div[2]/div').click()
+                                '/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div['
+                                '2]/div[2]/div/div/div[3]/section/div/div/div/div[' + str(randint(3, 10)) +
+                                ']/div/div/div/div[2]/div[1]/div[2]').click()
                     except:
                         pass
                     time.sleep(2)
                     # clicking the final follow button
-                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div['
+                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div['
                                               '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div').click()
                     time.sleep(2)
                     # clicking the skip for now button for the notifications
-                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div['
+                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div['
                                               '2]/div/div/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div').click()
                     time.sleep(2)
                     flag = False
                     # and the account has been created
                     # clicking the cookie thing
-                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div/div/div/div[2]').click()
+                    bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div/div/div/div/div/div[2]').click()
                     time.sleep(0.1)
                     username = bot.find_element_by_xpath(
                         '/html/body/div/div/div/div[2]/header/div/div/div/div[2]/div/div/div['
@@ -348,54 +339,40 @@ class Sign_Up_Bot:
                 except:
                     error_list.append(False)
                     bot.close()
-        bot.find_element_by_xpath(
-            '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div['
-            '1]/div/div/div/form/div[1]/div/div/div[2]/input').click()
-        time.sleep(0.2)
-        bot.find_element_by_xpath(
-            '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div['
-            '1]/div/div/div/form/div[1]/div/div/div[2]/input').send_keys('@MiketheGod10')
-        time.sleep(2)
-        bot.find_element_by_xpath('/html/body/div/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div['
-                                  '1]/div/div/div/form/div[2]/div/div[4]/div/li/div').click()
-        time.sleep(0.5)
-        bot.find_element_by_xpath(
-            '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/div/div/div[1]/div[2]/div['
-            '1]/div/div[2]/div/div').click()
         bot.close()
 
 
 if __name__ == '__main__':
     # creating different bots for different tasks
-    # bot1 = Sign_Up_Bot()
-    # bot2 = Sign_Up_Bot()
-    # bot3 = Sign_Up_Bot()
-    # bot4 = Sign_Up_Bot()
-    # bot5 = Sign_Up_Bot()
-    # bot6 = Sign_Up_Bot()
-    # process1 = multiprocessing.Process(target=bot1.get_full_name, args=(full_name,))
-    # process2 = multiprocessing.Process(target=bot2.get_email, args=(email,))
-    # process3 = multiprocessing.Process(target=bot3.get_password, args=(password,))
-    # process4 = multiprocessing.Process(target=bot4.get_bio, args=(bio,))
-    # process6 = multiprocessing.Process(target=bot5.get_profile_picture, )
-    # process5 = multiprocessing.Process(target=bot6.create_twitter_account, args=(errors,))
-    # process1.start()
-    # process2.start()
-    # process3.start()
-    # process4.start()
-    # process5.start()
-    # process6.start()
-    # process1.join()
-    # process2.join()
-    # process3.join()
-    # process4.join()
-    # process5.join()
-    # process6.join()
+    bot1 = Sign_Up_Bot()
+    bot2 = Sign_Up_Bot()
+    bot3 = Sign_Up_Bot()
+    bot4 = Sign_Up_Bot()
+    bot5 = Sign_Up_Bot()
+    bot6 = Sign_Up_Bot()
+    process1 = multiprocessing.Process(target=bot1.get_full_name, args=(full_name,))
+    process2 = multiprocessing.Process(target=bot2.get_email, args=(email,))
+    process3 = multiprocessing.Process(target=bot3.get_password, args=(password,))
+    process4 = multiprocessing.Process(target=bot4.get_bio, args=(bio,))
+    process6 = multiprocessing.Process(target=bot5.get_profile_picture, )
+    process5 = multiprocessing.Process(target=bot6.create_twitter_account, args=(errors,))
+    process1.start()
+    process2.start()
+    process3.start()
+    process4.start()
+    process5.start()
+    process6.start()
+    process1.join()
+    process2.join()
+    process3.join()
+    process4.join()
+    process5.join()
+    process6.join()
     # tweeting
-    bot7 = Tweet_Bot()
+    # bot7 = Tweet_Bot()
     # bot7.tweet_inspirational_quote('quantina165@vteensp.com', 'fC#o$I7MQ8w&')
     # bot7.like_tweets('quantina165@vteensp.com', 'fC#o$I7MQ8w&')
-    bot7.follow_random_users('quantina165@vteensp.com', 'fC#o$I7MQ8w&')
+    # bot7.follow_random_users('quantina165@vteensp.com', 'fC#o$I7MQ8w&')
 
 # websites used for this autogenerated-twitter bot
 # https://tempail.com/en/ temporary email address
