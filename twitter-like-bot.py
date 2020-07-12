@@ -51,10 +51,9 @@ class TwitterBot:
                     time.sleep(2)
                 else:
                     bot.find_element_by_xpath(
-                        '/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[4]/div/div/section/div/div/div/div['
-                        + str(
-                            counter) + ']/div/div/div/div/article/div/div[2]/div[2]/div[2]/div[3]/div[3]/div/div/div[1]') \
-                        .click()
+                        '/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[4]/div/div/section/div/'
+                        'div/div/div[' + str(counter) + ']/div/div/div/div/article/div/div[2]/div[2]/div[2]/'
+                                                        'div[3]/div[3]/div/div/div[1]').click()
                     counter += 1
                     time.sleep(1)
             except:
