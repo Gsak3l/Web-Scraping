@@ -145,7 +145,7 @@ class Sign_Up_Bot:
             except:
                 pass
         verification_code.append(local_verification_code)
-        bot.close()
+
 
     def get_full_name(self, full_name_list):
         bot = self.bot
