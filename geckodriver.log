@@ -10642,3 +10642,18 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.m
 1595172858047	Marionette	INFO	Stopped listening on port 41109
 JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 1595172920214	Marionette	INFO	Stopped listening on port 43377
+1595174626981	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3Tl7SJgQGBFn"
+1595174628774	Marionette	INFO	Listening on port 39889
+1595174628785	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595174628813	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.defqIo7DoFn0"
+1595174630726	Marionette	INFO	Listening on port 41449
+1595174630874	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595174631903	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.L1BStvN4xbFq"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

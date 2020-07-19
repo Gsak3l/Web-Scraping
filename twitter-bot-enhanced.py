@@ -13,6 +13,7 @@ password = manager.list()
 verification_code = manager.list()
 bio = manager.list()
 errors = manager.list()
+loggin_in = manager.list()
 
 
 # noinspection PyBroadException
@@ -20,7 +21,7 @@ class Tweet_Bot:
     def __init__(self):  # constructor
         self.bot = webdriver.Firefox()
 
-    def tweet_inspirational_quote(self, acc_email, acc_pwd):
+    def tweet_inspirational_quote(self, login):
         bot = self.bot
         bot.get('https://randomwordgenerator.com/motivational-quote.php')  # the website the quote
         time.sleep(1.5)  # waiting for the quote to appear
@@ -39,11 +40,13 @@ class Tweet_Bot:
         time.sleep(1)
         # filling username and password
         bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[1]/label/div/div['
-                                  '2]/div/input').send_keys(acc_email)
+                                  '2]/div/input').send_keys(email[0])
         bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[2]/label/div/div['
-                                  '2]/div/input').send_keys(acc_pwd)
+                                  '2]/div/input').send_keys(password[0])
         # pressing the log in button
         bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[3]/div/div').click()
+        # appending the list
+        login.append(True)
         # cookie thing
         bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div/div/div/div/div/div[2]/div/span/span').click()
         time.sleep(1)
@@ -57,18 +60,20 @@ class Tweet_Bot:
         bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div['
                                   '3]/div/div/div/div[1]/div/div/div/div/div[2]/div[4]/div/div/div[2]/div[4]').click()
 
-    def like_tweets(self, acc_email, acc_pwd):
+    def like_tweets(self, login):
         bot = self.bot
         # twitter
         bot.get('https://twitter.com/login')
         time.sleep(1)
         # filling username and password
         bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[1]/label/div/div['
-                                  '2]/div/input').send_keys(acc_email)
+                                  '2]/div/input').send_keys(email[0])
         bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[2]/label/div/div['
-                                  '2]/div/input').send_keys(acc_pwd)
+                                  '2]/div/input').send_keys(password[0])
         # pressing the log in button
         bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[3]/div/div').click()
+        # appending the list
+        login.append(True)
         time.sleep(1)
         # cookie thing
         bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div/div/div/div/div/div[2]/div/span/span').click()
@@ -85,18 +90,20 @@ class Tweet_Bot:
             except:
                 pass
 
-    def follow_random_users(self, acc_email, acc_pwd):
+    def follow_random_users(self, login):
         bot = self.bot
         # twitter
         bot.get('https://twitter.com/login')
         time.sleep(1)
         # filling username and password
         bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[1]/label/div/div['
-                                  '2]/div/input').send_keys(acc_email)
+                                  '2]/div/input').send_keys(email[0])
         bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[2]/label/div/div['
-                                  '2]/div/input').send_keys(acc_pwd)
+                                  '2]/div/input').send_keys(password[0])
         # pressing the log in button
         bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[3]/div/div').click()
+        # appending the list
+        login.append(True)
         time.sleep(1)
         # cookie thing
         bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div/div/div/div/div/div[2]/div/span/span').click()
@@ -171,7 +178,17 @@ class Sign_Up_Bot:
             except:
                 pass
         verification_code.append(local_verification_code)
-        bot.close()
+        # if we disconnect from twitter and reconnect, twitter asks for a second verification code
+        # it is painful, but i think it works
+        while len(loggin_in) != 1:
+            time.sleep(5)
+        time.sleep(5)
+        # clicking the email
+        bot.find_element_by_xpath('/html/body/section[2]/div/div/div/ul/li[2]/a').click()
+        time.sleep(3)
+        bot.switch_to.frame(bot.find_element_by_xpath('//*[@id="iframe"]'))
+        print(bot.find_element_by_xpath(
+            '/html/body/table/tbody/tr[2]/td/table[2]/tbody/tr[1]/td[2]/table/tbody/tr[7]/td/strong').text)
 
     def get_full_name(self, full_name_list):
         bot = self.bot
@@ -381,55 +398,55 @@ class Sign_Up_Bot:
 if __name__ == '__main__':
     # creating different bots for different tasks
     # these 6 bots are creating the twitter account
-    # bot1 = Sign_Up_Bot()
-    # bot2 = Sign_Up_Bot()
-    # bot3 = Sign_Up_Bot()
-    # bot4 = Sign_Up_Bot()
-    # bot5 = Sign_Up_Bot()
-    # bot6 = Sign_Up_Bot()
-    # # these 3 are used for tweeting, following users and liking posts
-    # bot7 = Tweet_Bot()
+    bot1 = Sign_Up_Bot()
+    bot2 = Sign_Up_Bot()
+    bot3 = Sign_Up_Bot()
+    bot4 = Sign_Up_Bot()
+    bot5 = Sign_Up_Bot()
+    bot6 = Sign_Up_Bot()
+    # these 3 are used for tweeting, following users and liking posts
+    bot7 = Tweet_Bot()
     # bot8 = Tweet_Bot()
     # bot9 = Tweet_Bot()
     # multiprocessing used to create a tweeter account
-    # process1 = multiprocessing.Process(target=bot1.get_full_name, args=(full_name,))
-    # process2 = multiprocessing.Process(target=bot2.get_email, args=(email,))
-    # process3 = multiprocessing.Process(target=bot3.get_password, args=(password,))
-    # process4 = multiprocessing.Process(target=bot4.get_bio, args=(bio,))
-    # process6 = multiprocessing.Process(target=bot5.get_profile_picture, )
-    # process5 = multiprocessing.Process(target=bot6.create_twitter_account, args=(errors,))
+    process1 = multiprocessing.Process(target=bot1.get_full_name, args=(full_name,))
+    process2 = multiprocessing.Process(target=bot2.get_email, args=(email,))
+    process3 = multiprocessing.Process(target=bot3.get_password, args=(password,))
+    process4 = multiprocessing.Process(target=bot4.get_bio, args=(bio,))
+    process6 = multiprocessing.Process(target=bot5.get_profile_picture, )
+    process5 = multiprocessing.Process(target=bot6.create_twitter_account, args=(errors,))
     # multiprocessing used to like, follow, and tweet
-    # process7 = multiprocessing.Process(target=bot7.tweet_inspirational_quote, )
-    # process8 = multiprocessing.Process(target=bot8.follow_random_users, )
-    # process9 = multiprocessing.Process(target=bot9.like_tweets, )
+    process7 = multiprocessing.Process(target=bot7.tweet_inspirational_quote, args=(loggin_in,))
+    process8 = multiprocessing.Process(target=bot8.follow_random_users, args=(loggin_in,))
+    # process9 = multiprocessing.Process(target=bot9.like_tweets, args=(loggin_in, ))
     # starting all the processes
-    # process1.start()
-    # process2.start()
-    # process3.start()
-    # process4.start()
-    # process5.start()
-    # process6.start()
-    # process7.start()
-    # process8.start()
+    process1.start()
+    process2.start()
+    process3.start()
+    process4.start()
+    process5.start()
+    process6.start()
+    process7.start()
+    process8.start()
     # process9.start()
     # joining all the processes
-    # process1.join()
-    # process2.join()
-    # process3.join()
-    # process4.join()
-    # process5.join()
-    # process6.join()
-    # process7.join()
-    # process8.join()
+    process1.join()
+    process2.join()
+    process3.join()
+    process4.join()
+    process5.join()
+    process6.join()
+    process7.join()
+    process8.join()
     # process9.join()
-    bot_one = testing_stuff()
-    bot_two = testing_stuff()
-    process_one = multiprocessing.Process(target=bot_one.getting_mail, args=(email,))
-    process_two = multiprocessing.Process(target=bot_two.check_working, )
-    process_one.start()
-    process_two.start()
-    process_one.join()
-    process_two.join()
+    # bot_one = testing_stuff()
+    # bot_two = testing_stuff()
+    # process_one = multiprocessing.Process(target=bot_one.getting_mail, args=(email,))
+    # process_two = multiprocessing.Process(target=bot_two.check_working, )
+    # process_one.start()
+    # process_two.start()
+    # process_one.join()
+    # process_two.join()
 
 # websites used for this autogenerated-twitter bot
 # https://tempail.com/en/ temporary email address
