@@ -10609,3 +10609,36 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.m
 1595171868473	Marionette	INFO	Stopped listening on port 33757
 JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 1595171870491	Marionette	INFO	Stopped listening on port 41979
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595172664059	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rQa7R8SLTH6k"
+1595172665976	Marionette	INFO	Listening on port 45981
+1595172666135	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595172667188	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.j0zfMc2MzuQU"
+1595172667381	Marionette	INFO	Stopped listening on port 36141
+1595172669061	Marionette	INFO	Stopped listening on port 38079
+1595172669098	Marionette	INFO	Listening on port 40093
+1595172669273	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595172677650	Marionette	INFO	Stopped listening on port 40093
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595172798728	Marionette	INFO	Stopped listening on port 45981
+1595172800289	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9Kq6CpFzsqVd"
+1595172802165	Marionette	INFO	Listening on port 33013
+1595172802193	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595172803218	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.15pBgYW1gDQ2"
+1595172805081	Marionette	INFO	Listening on port 36021
+1595172805122	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595172812962	Marionette	INFO	Stopped listening on port 36021
+1595172844160	Marionette	INFO	Stopped listening on port 33013
+1595172845917	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fsWTMCIHICeD"
+1595172847724	Marionette	INFO	Listening on port 43377
+1595172847821	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595172847849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aQOdbj4pv6sW"
+1595172849783	Marionette	INFO	Listening on port 41109
+1595172849854	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595172858047	Marionette	INFO	Stopped listening on port 41109
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595172920214	Marionette	INFO	Stopped listening on port 43377

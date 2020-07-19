@@ -132,7 +132,11 @@ class testing_stuff:
         local_email = bot.find_element_by_xpath('//*[@id="eposta_adres"]').get_attribute(
             "value")  # getting the temp mail for the sign-up
         email_list.append(local_email)
-        time.sleep(15)
+        time.sleep(17)
+        bot.find_element_by_xpath('/html/body/section[2]/div/div/div/ul/li[2]/a').click()
+        time.sleep(3)
+        bot.switch_to.frame(bot.find_element_by_xpath('//*[@id="iframe"]'))
+        print(bot.find_element_by_xpath('/html/body').text)
 
     def check_working(self):
         bot = self.bot
