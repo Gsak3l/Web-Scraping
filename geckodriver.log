@@ -10592,3 +10592,20 @@ console.error: "Store does not have a valid reducer. Make sure the argument pass
 1595099608704	Marionette	INFO	Listening on port 42475
 1595099608723	Marionette	WARN	TLS certificate errors will be ignored for this session
 1595099612193	Marionette	INFO	Stopped listening on port 36617
+1595099839902	Marionette	INFO	Stopped listening on port 42475
+1595171837845	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ObQXstVx6DPk"
+1595171839725	Marionette	INFO	Listening on port 33757
+1595171839749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595171839777	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sFuEzmA5u3qt"
+1595171841702	Marionette	INFO	Listening on port 41979
+1595171841781	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595171863960	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ucfg9OzxqcQO"
+1595171865849	Marionette	INFO	Listening on port 36141
+1595171865867	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595171865897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.38oJx7c44mb8"
+1595171867811	Marionette	INFO	Listening on port 38079
+1595171867901	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595171868473	Marionette	INFO	Stopped listening on port 33757
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595171870491	Marionette	INFO	Stopped listening on port 41979
