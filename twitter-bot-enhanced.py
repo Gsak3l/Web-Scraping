@@ -22,10 +22,12 @@ class Tweet_Bot:
         self.bot = webdriver.Firefox()
 
     def sign_in(self, local_log_flag):
+        # this entire def is made because twitter asks for a second verification code when creating a new account
+        # and then trying to log in :X
+        bot = self.bot
         flag = True
         while flag:
             if len(log_flag) == 1:
-                bot = self.bot
                 bot.get('https://twitter.com/login')
                 time.sleep(1)
                 bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[1]/label/div/div['
@@ -36,6 +38,12 @@ class Tweet_Bot:
                 bot.find_element_by_xpath(
                     '/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[3]/div/div').click()
                 log_flag.append(True)
+                flag = False
+        flag = True
+        while flag:
+            if len(verification_code) == 2:
+                bot.find_element_by_xpath('//*[@id="challenge_response"]').send_keys(verification_code[1])
+                bot.find_element_by_xpath('//*[@id="email_challenge_submit"]').click()
                 flag = False
 
     def tweet_inspirational_quote(self):
@@ -175,16 +183,7 @@ class Sign_Up_Bot:
                 verification_code.append(bot.find_element_by_xpath(
                     '/html/body/table/tbody/tr[2]/td/table[2]/tbody/tr[1]/td[2]/table/tbody/tr[7]/td/strong').text)
                 flag = False
-        print(verification_code[1])
-        # while len(loggin_in) != 1:
-        #     time.sleep(5)
-        # time.sleep(5)
-        # # clicking the email
-        # bot.find_element_by_xpath('/html/body/section[2]/div/div/div/ul/li[2]/a').click()
-        # time.sleep(3)
-        # bot.switch_to.frame(bot.find_element_by_xpath('//*[@id="iframe"]'))
-        # print(bot.find_element_by_xpath(
-        #     '/html/body/table/tbody/tr[2]/td/table[2]/tbody/tr[1]/td[2]/table/tbody/tr[7]/td/strong').text)
+        bot.close()
 
     def get_full_name(self, full_name_list):
         bot = self.bot
