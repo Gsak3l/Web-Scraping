@@ -11208,3 +11208,11 @@ JavaScript error: https://eus.rubiconproject.com/usync.html?p=17632&endpoint=us-
 JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
 JavaScript error: , line 0: uncaught exception: undefined
 1595267238494	Marionette	INFO	Stopped listening on port 38759
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595267265682	Marionette	INFO	Stopped listening on port 40677
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1595267347830	Marionette	INFO	Stopped listening on port 32785

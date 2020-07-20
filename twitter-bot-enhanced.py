@@ -42,8 +42,13 @@ class Tweet_Bot:
         flag = True
         while flag:
             if len(verification_code) == 2:
+                # adding the second verification code and pressing the verify button
                 bot.find_element_by_xpath('//*[@id="challenge_response"]').send_keys(verification_code[1])
                 bot.find_element_by_xpath('//*[@id="email_challenge_submit"]').click()
+                time.sleep(1)
+                # twitter bug, needs to press the login button again
+                bot.find_element_by_xpath(
+                    '/html/body/div/div/div/div[2]/header/div[2]/div[1]/div/div[2]/div[1]/div[1]').click()
                 flag = False
 
     def tweet_inspirational_quote(self):
