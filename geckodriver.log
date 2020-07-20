@@ -10812,3 +10812,189 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mi
 1595178841921	Marionette	INFO	Stopped listening on port 35761
 1595178859357	Marionette	INFO	Stopped listening on port 37353
 1595178888119	Marionette	INFO	Stopped listening on port 41667
+1595261247992	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ENbYAnmKAhcv"
+1595261250031	Marionette	INFO	Listening on port 34787
+1595261250163	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595261250198	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.w2QtXXIaNfIz"
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1595261586831	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Aa1n6r3LMSKF"
+1595261588721	Marionette	INFO	Listening on port 45329
+1595261588735	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595261588765	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WZVz1HTRl8Jj"
+1595261590663	Marionette	INFO	Listening on port 43349
+1595261590670	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595261590699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kgb6zKpMayc8"
+1595261592607	Marionette	INFO	Listening on port 39233
+1595261592772	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595261592807	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NAyRADT03OMn"
+1595261594718	Marionette	INFO	Listening on port 33727
+1595261594810	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595261594902	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wOVgeySoAcJx"
+1595261596816	Marionette	INFO	Listening on port 46741
+1595261596975	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595261597006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gP7oTwWYpQhQ"
+1595261598893	Marionette	INFO	Listening on port 37823
+1595261598910	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595261598938	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WZTGWCnQQHTx"
+1595261600985	Marionette	INFO	Listening on port 36563
+1595261601068	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595261602594	Marionette	INFO	Stopped listening on port 46741
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B0011,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595261608449	Marionette	INFO	Stopped listening on port 33727
+1595261609196	Marionette	INFO	Stopped listening on port 39233
+1595261611345	Marionette	INFO	Stopped listening on port 45329
+JavaScript error: https://eus.rubiconproject.com/usync.html?p=17632&endpoint=us-east, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+JavaScript error: , line 0: uncaught exception: undefined
+1595261626603	Marionette	INFO	Stopped listening on port 43349
+[Child 15969, MediaDecoderStateMachine #1] WARNING: 7f8f95c648b0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 15969, MediaDecoderStateMachine #1] WARNING: Decoder=7f8f9d741400 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1595261656610	Marionette	INFO	Stopped listening on port 37823
+1595261668504	Marionette	INFO	Stopped listening on port 36563
+1595262176693	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sl3uSmFOXZDW"
+1595262178551	Marionette	INFO	Listening on port 37311
+1595262178597	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262178625	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.h1f3hASE5VHr"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1595262186260	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RWmQOs15wghq"
+1595262188109	Marionette	INFO	Listening on port 41021
+1595262188164	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262189191	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uURNk4HCIyoL"
+1595262191038	Marionette	INFO	Listening on port 38599
+1595262191095	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262191123	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AtNZMvFgd54t"
+1595262193005	Marionette	INFO	Listening on port 46421
+1595262193027	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262193057	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ipiOJURNJxkn"
+1595262194896	Marionette	INFO	Listening on port 34649
+1595262194961	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262195987	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wUUseSp2Utlx"
+1595262197806	Marionette	INFO	Listening on port 35189
+1595262197891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262197918	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.s4W79YRAhUDk"
+1595262199807	Marionette	INFO	Listening on port 40115
+1595262199824	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262199852	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.D7I6jUWSQ3PQ"
+1595262201725	Marionette	INFO	Listening on port 38743
+1595262201756	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262203191	Marionette	INFO	Stopped listening on port 35189
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595262206476	Marionette	INFO	Stopped listening on port 41021
+1595262208819	Marionette	INFO	Stopped listening on port 34649
+1595262209414	Marionette	INFO	Stopped listening on port 46421
+1595262255877	Marionette	INFO	Stopped listening on port 40115
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595262294091	Marionette	INFO	Stopped listening on port 38599
+1595262295323	Marionette	INFO	Stopped listening on port 38743
+1595262323685	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.73rwiBYfbOnt"
+1595262325661	Marionette	INFO	Listening on port 38727
+1595262325689	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262325717	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.upr9w3LL4hJy"
+1595262327596	Marionette	INFO	Listening on port 40539
+1595262327621	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262327651	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9icEvf1U90gZ"
+1595262329507	Marionette	INFO	Listening on port 35113
+1595262329554	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262329582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zlxxVstYqDlV"
+1595262331549	Marionette	INFO	Listening on port 35093
+1595262331639	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262331675	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Ico9r7UcOdXf"
+1595262333554	Marionette	INFO	Listening on port 38483
+1595262333578	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262333608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.31D5KpQFicNO"
+1595262335507	Marionette	INFO	Listening on port 42149
+1595262335513	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262335541	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gVlRGj8oaEEV"
+1595262337430	Marionette	INFO	Listening on port 32869
+1595262337446	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262338925	Marionette	INFO	Stopped listening on port 38483
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595262342191	Marionette	INFO	Stopped listening on port 38727
+1595262344376	Marionette	INFO	Stopped listening on port 35093
+1595262345284	Marionette	INFO	Stopped listening on port 35113
+1595262394018	Marionette	INFO	Stopped listening on port 42149
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595262453386	Marionette	INFO	Stopped listening on port 40539
+1595262454927	Marionette	INFO	Stopped listening on port 32869
+1595262526685	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xYIXD5XPcbuU"
+1595262528550	Marionette	INFO	Listening on port 45113
+1595262528589	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262528620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ayfbrxGT7sRI"
+1595262530537	Marionette	INFO	Listening on port 42643
+1595262530694	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262530736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pfTun7SfK5D5"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1595262538922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ePUB6On90Smi"
+1595262540749	Marionette	INFO	Listening on port 44599
+1595262540826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262540853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Oe3AMZM5QyWV"
+1595262542726	Marionette	INFO	Listening on port 37979
+1595262542758	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262542786	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nODcZNpxDWtb"
+1595262544687	Marionette	INFO	Listening on port 34783
+1595262544691	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262544722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DYosOxmsUS6G"
+1595262546639	Marionette	INFO	Listening on port 42879
+1595262546819	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262546853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.v44YzR47f0sU"
+1595262548696	Marionette	INFO	Listening on port 45853
+1595262548757	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262548785	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ndSkuNPbIhFc"
+1595262550687	Marionette	INFO	Listening on port 45565
+1595262550692	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595262550723	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WXppx761nyR1"
+1595262552646	Marionette	INFO	Listening on port 43861
+1595262552727	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595262554804	Marionette	INFO	Stopped listening on port 45853
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1595262559768	Marionette	INFO	Stopped listening on port 42879
+1595262560232	Marionette	INFO	Stopped listening on port 34783
+1595262569317	Marionette	INFO	Stopped listening on port 44599
+JavaScript error: https://eus.rubiconproject.com/usync.html?p=17632&endpoint=us-east, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+JavaScript error: , line 0: uncaught exception: undefined
+[Child 24853, MediaDecoderStateMachine #1] WARNING: 7fe84074d4a0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 24853, MediaDecoderStateMachine #1] WARNING: Decoder=7fe840a19000 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1595262618941	Marionette	INFO	Stopped listening on port 45565
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
