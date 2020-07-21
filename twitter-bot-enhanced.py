@@ -62,7 +62,7 @@ class Tweet_Bot:
                 quote += "\n"  # breaking line
                 # getting the top hashtags for the day
                 bot.get('https://www.tweeplers.com/hashtags/?cc=WORLD')
-                hashtag_counter = randint(1, 10)
+                hashtag_counter = randint(3, 10)
                 for i in range(hashtag_counter):
                     num = randint(2, 21)
                     if num != 7 or num != 12:
@@ -95,7 +95,7 @@ class Tweet_Bot:
                 # twitting the quote
                 bot.find_element_by_xpath(
                     '/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div['
-                    '3]/div/div/div/div[1]/div/div/div/div/div[2]/div[4]/div/div/div[2]/div[4]').click()
+                    '3]/div/div/div/div[1]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[4]').click()
                 flag = False
 
     def like_tweets(self):
@@ -196,7 +196,7 @@ class Sign_Up_Bot:
             # if we disconnect from twitter and reconnect, twitter asks for a second verification code
             # it is painful, but i think it works
             if len(log_flag) == 2:
-                time.sleep(15)
+                time.sleep(20)
                 bot.find_element_by_xpath('/html/body/section[2]/div/div/div/ul/li[2]/a').click()
                 time.sleep(3)
                 bot.switch_to.frame(bot.find_element_by_xpath('//*[@id="iframe"]'))
