@@ -131,6 +131,7 @@ class Tweet_Bot:
                         time.sleep(0.5)
                     except:
                         pass
+        bot.close()
 
     def follow_random_users(self):
         bot = self.bot
@@ -227,8 +228,7 @@ class Sign_Up_Bot:
         # i guess i have to scroll at the bottom to get the password
         bot.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         # getting the random generated password
-        local_password = bot.find_element_by_xpath(
-            '/html/body/div[3]/div[1]/div/div[1]/main/div/div[4]/section/div/div/div/div[1]/div/div[1]/div').text
+        local_password = bot.find_element_by_class_name('generator__password').text
         password_list.append(local_password)
         bot.close()
 
