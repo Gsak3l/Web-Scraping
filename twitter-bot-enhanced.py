@@ -51,6 +51,40 @@ class Tweet_Bot:
                 verification_code.append(True)
         bot.close()
 
+    def like_tweets(self):
+        bot = self.bot
+        flag = True
+        while flag:
+            if len(verification_code) == 4:
+                # twitter
+                bot.get('https://twitter.com/login')
+                time.sleep(1)
+                # filling username and password
+                bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[1]/label/div/div['
+                                          '2]/div/input').send_keys(email[0])
+                bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[2]/label/div/div['
+                                          '2]/div/input').send_keys(password[0])
+                # pressing the log in button
+                bot.find_element_by_xpath(
+                    '/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[3]/div/div').click()
+                time.sleep(1)
+                # cookie thing
+                bot.find_element_by_xpath(
+                    '/html/body/div/div/div/div[1]/div/div/div/div/div/div[2]/div/span/span').click()
+                # liking random things things
+                rng = randint(10, 20)
+                for i in range(1, rng):
+                    try:
+                        # trying to make random like choices
+                        bot.find_element_by_xpath(
+                            '/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[4]/div/div/section/div/div/'
+                            'div/div[' + str(randint(1, rng)) + ']/div/div/article/div/div/div/div[2]/div[2]/div[2]/'
+                                                                'div[3]/div[3]/div/div/div[1]').click()
+                        time.sleep(0.5)
+                    except:
+                        pass
+        bot.close()
+
     def tweet_inspirational_quote(self):
         bot = self.bot
         flag = True
@@ -99,11 +133,11 @@ class Tweet_Bot:
                 flag = False
                 verification_code.append(True)
 
-    def like_tweets(self):
+    def follow_random_users(self):
         bot = self.bot
         flag = True
         while flag:
-            if len(verification_code) == 4:
+            if len(verification_code) == 3:
                 # twitter
                 bot.get('https://twitter.com/login')
                 time.sleep(1)
@@ -119,54 +153,14 @@ class Tweet_Bot:
                 # cookie thing
                 bot.find_element_by_xpath(
                     '/html/body/div/div/div/div[1]/div/div/div/div/div/div[2]/div/span/span').click()
-                # liking random things things
-                rng = randint(10, 20)
-                for i in range(1, rng):
-                    try:
-                        # trying to make random like choices
-                        bot.find_element_by_xpath(
-                            '/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[4]/div/div/section/div/div/'
-                            'div/div[' + str(randint(1, rng)) + ']/div/div/article/div/div/div/div[2]/div[2]/div[2]/'
-                                                                'div[3]/div[3]/div/div/div[1]').click()
-                        time.sleep(0.5)
-                    except:
-                        pass
-        bot.close()
-
-    def follow_random_users(self):
-        bot = self.bot
-        # twitter
-        bot.get('https://twitter.com/login')
-        time.sleep(1)
-        # filling username and password
-        bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[1]/label/div/div['
-                                  '2]/div/input').send_keys(email[0])
-        bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[2]/label/div/div['
-                                  '2]/div/input').send_keys(password[0])
-        # pressing the log in button
-        bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[3]/div/div').click()
-        time.sleep(1)
-        # cookie thing
-        bot.find_element_by_xpath('/html/body/div/div/div/div[1]/div/div/div/div/div/div[2]/div/span/span').click()
-        # scrolling by some pixels
-        bot.execute_script('window.scrollTo(0, 50)')
-        time.sleep(0.5)
-        # clicking the show more on the follow section
-        bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div['
-                                  '2]/div/div/div/div[4]/aside/a/div/span').click()
-        time.sleep(1.5)
-        # following random users
-        # because you follow part: 1, more
-        container = bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]')
-        elements = container.find_elements_by_xpath('//span[contains(text(), "More")]')
-        for i in range(1, len(elements)):
-            try:
-                elements[i].click()
-                time.sleep(2)
-                bot.back()
-                print(i)
-            except:
-                pass
+                # scrolling by some pixels
+                bot.execute_script('window.scrollTo(0, 50)')
+                time.sleep(0.5)
+                # clicking the show more on the follow section
+                bot.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div['
+                                          '2]/div/div/div/div[4]/aside/a/div/span').click()
+                time.sleep(1.5)
+                # following random users
 
 
 class Sign_Up_Bot:
@@ -373,7 +367,7 @@ class Sign_Up_Bot:
                                               '2]/div/div/div[2]/div[1]/div/div/div/div[3]/div').click()
                     time.sleep(2)
                     # following some accounts
-                    random_value = randint(4, 10)
+                    random_value = randint(7, 10)
                     try:
                         for i in range(1, random_value):
                             bot.find_element_by_xpath(
@@ -433,8 +427,8 @@ if __name__ == '__main__':
     process6 = multiprocessing.Process(target=bot5.get_profile_picture, )
     process5 = multiprocessing.Process(target=bot6.create_twitter_account, args=(errors, log_flag))
     process7 = multiprocessing.Process(target=bot7.sign_in, args=(log_flag,))
-    process8 = multiprocessing.Process(target=bot8.tweet_inspirational_quote, )
-    process9 = multiprocessing.Process(target=bot9.like_tweets, )
+    process8 = multiprocessing.Process(target=bot8.like_tweets, )
+    process9 = multiprocessing.Process(target=bot9.follow_random_users, )
     # starting all the processes
     process1.start()
     process2.start()
