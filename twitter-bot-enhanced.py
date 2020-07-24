@@ -169,8 +169,15 @@ class Tweet_Bot:
                                                   '2]/section/div/div/div/div[' + str(randint(3, 20)) +
                                                   ']/div/div/div/div[2]/div[1]/div[2]').click()
                         time.sleep(1)
+                        try:  # clicking un-follow makes a popup appear and confirm this
+                            bot.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div['
+                                                      '2]/div/div/div/div/div/div[2]/div[2]/div[3]/div[2]').click()
+                        except:
+                            pass
                     except:
                         pass
+                flag = False
+        bot.close()
 
 
 class Sign_Up_Bot:
