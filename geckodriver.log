@@ -14602,3 +14602,356 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.m
 1600186081978	Marionette	INFO	Stopped listening on port 46849
 1600186082608	Marionette	INFO	Stopped listening on port 39391
 1600186083532	Marionette	INFO	Stopped listening on port 41889
+1600189111190	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.eZ9aiVJntKon"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189112893	Marionette	INFO	Listening on port 37051
+1600189112896	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189112924	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.U1ej7gMHoM09"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189114678	Marionette	INFO	Listening on port 38839
+1600189114728	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189114759	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rN3x4VC2pGte"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189116509	Marionette	INFO	Listening on port 42887
+1600189116564	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1600189134351	Marionette	INFO	Stopped listening on port 42887
+1600189134352	Marionette	INFO	Stopped listening on port 37051
+1600189134386	Marionette	INFO	Stopped listening on port 38839
+1600189267555	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MofD7cyiYEOz"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189269366	Marionette	INFO	Listening on port 34577
+1600189269461	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189270490	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.J436HIgkUWXs"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189272186	Marionette	INFO	Listening on port 34425
+1600189272200	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189273226	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PQ2FFmRxeh9h"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189274984	Marionette	INFO	Listening on port 33585
+1600189275030	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1600189509605	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.H2jJphGKMUsO"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189511281	Marionette	INFO	Listening on port 44777
+1600189511308	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189512334	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6V5Etb6un9HS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189513985	Marionette	INFO	Listening on port 37915
+1600189514037	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189514065	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qN6wiIrpcHAo"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189515858	Marionette	INFO	Listening on port 33515
+1600189515870	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1600189615449	Marionette	INFO	Stopped listening on port 33515
+1600189616391	Marionette	INFO	Stopped listening on port 44777
+1600189617255	Marionette	INFO	Stopped listening on port 37915
+1600189620901	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.70PZJQxMxbcQ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189622628	Marionette	INFO	Listening on port 34867
+1600189622704	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189622733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ze9laD0CkaL3"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189624490	Marionette	INFO	Listening on port 34091
+1600189624537	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189624565	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hFzNK6htMIQY"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189626323	Marionette	INFO	Listening on port 35173
+1600189626369	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600189857503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dpvigJvk9djo"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189859288	Marionette	INFO	Listening on port 39143
+1600189859389	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189859424	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FV8d480OUXhe"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189861259	Marionette	INFO	Listening on port 35943
+1600189861366	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189861400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.c7n4QsmSc3um"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189863148	Marionette	INFO	Listening on port 44711
+1600189863204	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600189886360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.J6us7wX9cqW5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189888218	Marionette	INFO	Listening on port 45735
+1600189888327	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189888361	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kbdK5fyAhq4i"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189890189	Marionette	INFO	Listening on port 38225
+1600189890336	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189890378	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hXk30rWDBAK3"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189892187	Marionette	INFO	Listening on port 39423
+1600189892334	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600189983437	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zpi2OPh3rbV8"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189985210	Marionette	INFO	Listening on port 40131
+1600189985241	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189985271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NW52bJpfe9sn"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189987156	Marionette	INFO	Listening on port 37285
+1600189987237	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600189987271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hmenjsEtkV8Q"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600189989140	Marionette	INFO	Listening on port 46783
+1600189989236	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: services.settings: 
+  main/normandy-recipes-capabilities Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+console.warn: services.settings: main/messaging-experiments sync interrupted by shutdown
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+console.warn: services.settings: blocklists/addons-bloomfilters sync interrupted by shutdown
+console.warn: services.settings: main/cfr sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+1600190012839	Marionette	INFO	Stopped listening on port 34091
+1600190012870	Marionette	INFO	Stopped listening on port 35943
+1600190012887	Marionette	INFO	Stopped listening on port 34867
+1600190012918	Marionette	INFO	Stopped listening on port 45735
+1600190012949	Marionette	INFO	Stopped listening on port 38225
+1600190012954	Marionette	INFO	Stopped listening on port 44711
+1600190012966	Marionette	INFO	Stopped listening on port 39143
+1600190012977	Marionette	INFO	Stopped listening on port 35173
+1600190013057	Marionette	INFO	Stopped listening on port 39423
+1600190013065	Marionette	INFO	Stopped listening on port 40131
+1600190013103	Marionette	INFO	Stopped listening on port 46783
+1600190013113	Marionette	INFO	Stopped listening on port 37285
+1600190023019	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fRg6Yrz2fMi7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190024688	Marionette	INFO	Listening on port 35247
+1600190024723	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600190025748	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nqxJfTfcf2jH"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190027400	Marionette	INFO	Listening on port 35653
+1600190027452	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600190028478	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RJWX2J5Bkb1c"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190030146	Marionette	INFO	Listening on port 38089
+1600190030182	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600190135392	Marionette	INFO	Stopped listening on port 38089
+1600190136252	Marionette	INFO	Stopped listening on port 35653
+1600190137340	Marionette	INFO	Stopped listening on port 35247
+1600190392411	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sHTtSljOaeyU"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190394156	Marionette	INFO	Listening on port 44135
+1600190394215	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600190395318	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PtcvTzuVrlbg"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190396992	Marionette	INFO	Listening on port 32937
+1600190397022	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600190397050	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ULvQeI6u12da"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190398776	Marionette	INFO	Listening on port 45275
+1600190398854	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600190444532	Marionette	INFO	Stopped listening on port 44135
+1600190445257	Marionette	INFO	Stopped listening on port 32937
+1600190520215	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TFZg2kf6T8pf"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190522151	Marionette	INFO	Listening on port 44209
+1600190522219	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600190522255	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qGx5Ap19pURK"
+1600190522704	Marionette	INFO	Stopped listening on port 45275
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190524039	Marionette	INFO	Listening on port 43939
+1600190524059	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600190524088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rZdjzxzWFw0I"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190525892	Marionette	INFO	Listening on port 36833
+1600190526048	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600190533212	Marionette	INFO	Stopped listening on port 44209
+1600190534178	Marionette	INFO	Stopped listening on port 43939
+1600190611400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9nquTnNVSVj4"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190613107	Marionette	INFO	Listening on port 42307
+1600190613269	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600190614299	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Pb3EtTiChNs9"
+1600190614657	Marionette	INFO	Stopped listening on port 36833
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190616018	Marionette	INFO	Listening on port 37625
+1600190616179	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600190616211	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.haYZfr6eR6Jm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190617973	Marionette	INFO	Listening on port 37465
+1600190618015	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600190678313	Marionette	INFO	Stopped listening on port 42307
+1600190679097	Marionette	INFO	Stopped listening on port 37625
+1600190681233	Marionette	INFO	Stopped listening on port 37465
+1600190682253	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AOJz4bPV4bqI"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190683993	Marionette	INFO	Listening on port 44417
+1600190684057	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600190684086	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xLMs4mWZpBg8"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190685887	Marionette	INFO	Listening on port 38087
+1600190685891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600190686917	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bBxIVPCJXfyJ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190688658	Marionette	INFO	Listening on port 43077
+1600190688721	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600190771788	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.InuVFA9JKVOm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190773517	Marionette	INFO	Listening on port 40625
+1600190773667	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600190774369	Marionette	INFO	Stopped listening on port 44417
+1600190774699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wyF5rSk9wI3H"
+1600190775265	Marionette	INFO	Stopped listening on port 38087
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190776434	Marionette	INFO	Listening on port 35657
+1600190776503	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600190776531	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UgcBHG5PlGbZ"
+1600190776821	Marionette	INFO	Stopped listening on port 43077
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600190778383	Marionette	INFO	Listening on port 34239
+1600190778492	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600190783146	Marionette	INFO	Stopped listening on port 35657
+1600190783203	Marionette	INFO	Stopped listening on port 40625
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/7418650138444587215/index.html#t=2213637633414560348&p=https%3A%2F%2Fd4d200247863a8a67a26d39bb97302e6.safeframe.googlesyndication.com, line 157: ReferenceError: TimelineMax is not defined
+JavaScript error: https://cdn.ampproject.org/rtv/012009010507000/v0/amp-analytics-0.1.js, line 133: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200909/r20110914/client/qs_click_protection_fy2019.js, line 14: NS_ERROR_NOT_INITIALIZED: 
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1600191501985	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Qugnb6Jp6jOS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191503882	Marionette	INFO	Listening on port 46023
+1600191503892	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600191504019	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SSZ0gY902ntQ"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191505354	Marionette	INFO	Stopped listening on port 34239
+1600191505960	Marionette	INFO	Listening on port 44785
+1600191506045	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600191506080	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7subnb9MPdfZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191507888	Marionette	INFO	Listening on port 40761
+1600191508043	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600191512175	Marionette	INFO	Stopped listening on port 44785
+1600191558889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.08XMgXbCKRtQ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191560744	Marionette	INFO	Listening on port 40379
+1600191560825	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600191560864	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LTlIyqrGTsMY"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191562766	Marionette	INFO	Listening on port 43041
+1600191562771	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600191562872	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.A17VzAnXNUDp"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191564759	Marionette	INFO	Listening on port 42665
+1600191564843	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600191568917	Marionette	INFO	Stopped listening on port 43041
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/16930851242103078060/index.html#t=1565912828725229124&p=https%3A%2F%2Fb17fc4b86daa824ad84e0f14f8bc093e.safeframe.googlesyndication.com, line 1646: ReferenceError: TweenMax is not defined
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200909/r20110914/client/qs_click_protection_fy2019.js, line 14: NS_ERROR_NOT_INITIALIZED: 
+1600191614279	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1JC1jxczncAZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191616276	Marionette	INFO	Listening on port 38865
+1600191616374	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600191616413	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JZanfJTqNMM6"
+1600191617014	Marionette	INFO	Stopped listening on port 46023
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191618029	Marionette	INFO	Stopped listening on port 40761
+1600191618586	Marionette	INFO	Listening on port 35977
+1600191618619	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600191618651	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WK5PblajK58O"
+1600191619542	Marionette	INFO	Stopped listening on port 42665
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191620585	Marionette	INFO	Listening on port 35739
+1600191620655	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600191621119	Marionette	INFO	Stopped listening on port 40379
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600191625030	Marionette	INFO	Stopped listening on port 35977
+1600191629227	Marionette	INFO	Stopped listening on port 38865
+1600191642287	Marionette	INFO	Stopped listening on port 35739
+1600191721781	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.X1xXbuNonaLe"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191723542	Marionette	INFO	Listening on port 44393
+1600191723585	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600191723616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.t8mkYHQDazf4"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191725613	Marionette	INFO	Listening on port 44901
+1600191725622	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600191725656	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PXnprVwI62CD"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191727459	Marionette	INFO	Listening on port 46293
+1600191727569	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600191731539	Marionette	INFO	Stopped listening on port 44901
+JavaScript error: , line 0: uncaught exception: undefined
+1600191750227	Marionette	INFO	Stopped listening on port 44393
+1600191751291	Marionette	INFO	Stopped listening on port 46293
+1600191784443	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zcY99S16BDAq"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191786163	Marionette	INFO	Listening on port 38623
+1600191786315	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600191786351	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4dgSIfkVRynq"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191788153	Marionette	INFO	Listening on port 33525
+1600191788156	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600191788186	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.r7YNxIZL3oYN"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600191789977	Marionette	INFO	Listening on port 36077
+1600191789991	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1600191794452	Marionette	INFO	Stopped listening on port 33525
+JavaScript error: , line 0: uncaught exception: undefined
+1600191815185	Marionette	INFO	Stopped listening on port 38623
+1600191816559	Marionette	INFO	Stopped listening on port 36077
