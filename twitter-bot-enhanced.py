@@ -266,7 +266,8 @@ class Sign_Up_Bot:
                 try:
                     # clicking the sign up button
                     bot.find_element_by_xpath(
-                        '/html/body/div[1]/div/div/div[2]/header/div[2]/div[1]/div/div[2]/div[1]/div[2]/a').click()
+                        '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div['
+                        '1]/section/a/').click()
                     time.sleep(0.5)  # waiting for the form to appear
                     bot.find_element_by_xpath(
                         '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div['
