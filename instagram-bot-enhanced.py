@@ -1,10 +1,11 @@
 import multiprocessing
 import time
 import random
-from random import randint
 
+from random import randint
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.support.ui import Select
 
 manager = multiprocessing.Manager()
 full_name = manager.list()
@@ -138,7 +139,7 @@ class Sign_Up_Bot:
         while flag:
             buttons = bot.find_elements_by_tag_name('button')  # finding all the buttons
             for button in buttons:
-                if button.text == 'Sign up':  # clicking the sign up one
+                if button.text == 'Sign up' or button.text == 'Next':  # clicking the sign up one
                     button.click()
             try:
                 print(bot.find_element_by_xpath('//*[@id="ssfErrorAlert"]').text)  # trying to find username error
@@ -149,15 +150,41 @@ class Sign_Up_Bot:
                         span.click()
                 # clicking the sign up button again
                 for button in buttons:
-                    if button.text == 'Sign up':
+                    if button.text == 'Sign up' or button.text == 'Next':
                         button.click()
+                flag = False
             except NoSuchElementException:
                 # if we don't have an error, the name given is acceptable
-                continue
-            flag = False
+                pass
+                flag = False
         # trying to choose dates
-        select = bot.find_elements_by_tag_name('select')  # finding all the select options
-        print(len(select))
+        # selecting a random month between january and december
+        flag = True
+        while flag:
+            try:
+                # selecting a random year between 1975 and 2001 (18+ ages)
+                year = Select(bot.find_element_by_xpath(
+                    '/html/body/div[1]/section/main/div/article/div/div[1]/div/div[4]/div/div/span/span[3]/select'))
+                year.select_by_value(str(randint(1975, 2001)))
+                # selecting a month between january and december
+                month = Select(bot.find_element_by_xpath(
+                    '/html/body/div[1]/section/main/div/article/div/div[1]/div/div[4]/div/div/span/span[1]/select'))
+                month.select_by_value(str(randint(1, 12)))
+                # selecting a day
+                day = Select(bot.find_element_by_xpath(
+                    '/html/body/div[1]/section/main/div/article/div/div[1]/div/div[4]/div/div/span/span[2]/select'))
+                flag2 = True
+                # this while is needed for the february and the months that have 30 days instead of 31
+                while flag2:
+                    try:
+                        # choosing different values until we we find the right one
+                        day.select_by_value(str(randint(1, 31)))
+                    except:
+                        pass
+                    flag2 = False
+            except:
+                pass
+            flag = False
 
 
 if __name__ == '__main__':
