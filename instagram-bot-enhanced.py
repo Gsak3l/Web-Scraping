@@ -69,11 +69,14 @@ class Sign_Up_Bot:
                 try:
                     # clicking the cookie thing
                     bot.find_element_by_xpath('/html/body/div[1]/div/div/div/div[2]/div/button[2]').click()
+                except:
+                    pass
+                try:
                     # closing an advertisement
                     bot.find_element_by_class_name('dmCatClose').click()
                 except:
                     pass
-                flag = False
+                    flag = False
         # getting all the buttons with the class button
         buttons = bot.find_elements_by_class_name('button')
         for button in buttons:
@@ -152,6 +155,9 @@ class Sign_Up_Bot:
                 # if we don't have an error, the name given is acceptable
                 continue
             flag = False
+        # trying to choose dates
+        select = bot.find_elements_by_tag_name('select')  # finding all the select options
+        print(len(select))
 
 
 if __name__ == '__main__':
@@ -181,4 +187,4 @@ if __name__ == '__main__':
 # https://www.fantasynamegenerators.com/greek_names.php greek name generator
 # https://www.name-generator.org.uk/quick/ world wide name generator
 # https://www.name-generator.org.uk/username/ username generator
-#
+# ---------------------------------------------------------------
