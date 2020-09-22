@@ -84,6 +84,7 @@ class Sign_Up_Bot:
             # clicking only the buttons with the text Suggest
             if button.get_attribute('value') == 'Suggest':
                 button.click()
+                bot.execute_script('window.scrollBy(0, 30);')
         # from all the suggestions, blanking the first, last name, and middle name
         bot.find_elements_by_class_name('sizeMedium')[0].clear()
         bot.find_elements_by_class_name('sizeMedium')[1].clear()
@@ -130,7 +131,7 @@ class Sign_Up_Bot:
             try:
                 bot.find_element_by_name('emailOrPhone').send_keys(email[len(email) - 1])  # input email
                 bot.find_element_by_name('fullName').send_keys(full_name[len(full_name) - 1])  # input name
-                bot.find_element_by_name('username').send_keys('mypc')  # input username username[len(username) - 1]
+                bot.find_element_by_name('username').send_keys(username[len(username) - 1])  # input username
                 bot.find_element_by_name('password').send_keys(password[len(password) - 1])  # input password
                 flag = False
             except:
@@ -140,7 +141,7 @@ class Sign_Up_Bot:
         for button in buttons:
             if button.text == 'Sign up' or button.text == 'Next':
                 button.click()
-        time.sleep(2)
+        time.sleep(1)
         # checking if we get an error for the username of the account
         try:
             # checking if this paragraph exists anywhere, if it does, the name should be changed
@@ -154,6 +155,27 @@ class Sign_Up_Bot:
                     button.click()
         except:
             pass
+        time.sleep(1)
+        # selecting random age
+        # selecting a year between 1975 and 2001 (18+ years old)
+        year = Select(bot.find_element_by_xpath(
+            '/html/body/div[1]/section/main/div/article/div/div[1]/div/div[4]/div/div/span/span[3]/select'))
+        year.select_by_value(str(randint(1975, 2001)))
+        # selecting a random month between january and december
+        month = Select(bot.find_element_by_xpath(
+            '/html/body/div[1]/section/main/div/article/div/div[1]/div/div[4]/div/div/span/span[1]/select'))
+        month.select_by_value(str(randint(1, 12)))
+        # month, but i have to consider what month has 28 or 30 days and what month has 31 days
+        flag = True
+        day = Select(bot.find_element_by_xpath(
+            '/html/body/div[1]/section/main/div/article/div/div[1]/div/div[4]/div/div/span/span[2]/select'))
+        while flag:
+            try:
+                day.select_by_value(str(randint(1, 31)))
+                flag = False
+            except:
+                pass
+        # please work please work please work
 
 
 if __name__ == '__main__':
