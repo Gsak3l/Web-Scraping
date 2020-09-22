@@ -130,61 +130,30 @@ class Sign_Up_Bot:
             try:
                 bot.find_element_by_name('emailOrPhone').send_keys(email[len(email) - 1])  # input email
                 bot.find_element_by_name('fullName').send_keys(full_name[len(full_name) - 1])  # input name
-                bot.find_element_by_name('username').send_keys(username[len(username) - 1])  # input username
+                bot.find_element_by_name('username').send_keys('mypc')  # input username username[len(username) - 1]
                 bot.find_element_by_name('password').send_keys(password[len(password) - 1])  # input password
                 flag = False
             except:
                 pass
-        flag = True
-        while flag:
-            buttons = bot.find_elements_by_tag_name('button')  # finding all the buttons
-            for button in buttons:
-                if button.text == 'Sign up' or button.text == 'Next':  # clicking the sign up one
+        # clicking the next button on the credential form
+        buttons = bot.find_elements_by_tag_name('button')
+        for button in buttons:
+            if button.text == 'Sign up' or button.text == 'Next':
+                button.click()
+        time.sleep(2)
+        # checking if we get an error for the username of the account
+        try:
+            # checking if this paragraph exists anywhere, if it does, the name should be changed
+            print(bot.find_element_by_xpath('//*[@id="ssfErrorAlert"]').text)
+            spans = bot.find_elements_by_tag_name('span')
+            for span in spans:
+                if span.text == 'Refresh suggestion':  # using instagram username generator if username exists
+                    span.click()
+            for button in buttons:  # clicking the next button once again
+                if button.text == 'Sign up' or button.text == 'Next':
                     button.click()
-            try:
-                print(bot.find_element_by_xpath('//*[@id="ssfErrorAlert"]').text)  # trying to find username error
-                # if we find a username error we click the auto generate instagram name from instagram
-                spans = bot.find_elements_by_tag_name('span')
-                for span in spans:
-                    if span.text == 'Refresh suggestion':
-                        span.click()
-                # clicking the sign up button again
-                for button in buttons:
-                    if button.text == 'Sign up' or button.text == 'Next':
-                        button.click()
-                flag = False
-            except NoSuchElementException:
-                # if we don't have an error, the name given is acceptable
-                pass
-                flag = False
-        # trying to choose dates
-        # selecting a random month between january and december
-        flag = True
-        while flag:
-            try:
-                # selecting a random year between 1975 and 2001 (18+ ages)
-                year = Select(bot.find_element_by_xpath(
-                    '/html/body/div[1]/section/main/div/article/div/div[1]/div/div[4]/div/div/span/span[3]/select'))
-                year.select_by_value(str(randint(1975, 2001)))
-                # selecting a month between january and december
-                month = Select(bot.find_element_by_xpath(
-                    '/html/body/div[1]/section/main/div/article/div/div[1]/div/div[4]/div/div/span/span[1]/select'))
-                month.select_by_value(str(randint(1, 12)))
-                # selecting a day
-                day = Select(bot.find_element_by_xpath(
-                    '/html/body/div[1]/section/main/div/article/div/div[1]/div/div[4]/div/div/span/span[2]/select'))
-                flag2 = True
-                # this while is needed for the february and the months that have 30 days instead of 31
-                while flag2:
-                    try:
-                        # choosing different values until we we find the right one
-                        day.select_by_value(str(randint(1, 31)))
-                    except:
-                        pass
-                    flag2 = False
-            except:
-                pass
-            flag = False
+        except:
+            pass
 
 
 if __name__ == '__main__':
