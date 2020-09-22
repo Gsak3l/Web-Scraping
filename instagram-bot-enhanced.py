@@ -4,7 +4,6 @@ import random
 
 from random import randint
 from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import Select
 
 manager = multiprocessing.Manager()
@@ -21,19 +20,34 @@ class Sign_Up_Bot:
     def __init__(self):
         self.bot = webdriver.Firefox()
 
-    def get_mail(self, email_list):  # temporary email address
+    def get_mail(self, email_list, verification_list):  # temporary email address
         bot = self.bot
         bot.get('https://tempail.com/')  # reaching the website
         # getting the value of the input, that contains the email and storing it to our global list
         email_list.append(bot.find_element_by_xpath('//*[@id="eposta_adres"]').get_attribute('value'))
         print(email_list[len(email_list) - 1])  # printing the email value
+        # clicking reload on the mails, and waiting for the instagram verification mail to appear
+        flag = True
+        while flag:
+            time.sleep(3)
+            # clicking refresh
+            bot.find_element_by_class_name('yenile-link').click()
+            try:
+                # trying to save the verification code instagram sent, to the verification global list
+                ver = bot.find_element_by_xpath('/html/body/section[2]/div/div/div/ul/li[2]/a/div[3]').text
+                verification_list.append(ver.split(' ')[0])  # getting just the verification code and not all the text
+                flag = False
+            except:
+                pass
+        #  just printing the value of the verification code
+        print(verification_list[len(verification_list) - 1])
 
     def get_full_name(self, full_name_list):  # random generated name
         bot = self.bot
         bot.get('https://www.name-generator.org.uk/quick/')  # reaching the website
         # getting a random name from a random generated name table
         full_name_list.append(bot.find_elements_by_class_name('name_heading')[randint(0, 9)].text)
-        print(full_name_list[len(full_name_list) - 1])  # printing the email value
+        print(full_name_list[len(full_name_list) - 1])  # printing the name value
         bot.close()
 
     def get_full_greek_name(self, full_name_list):  # random generated name
@@ -175,7 +189,12 @@ class Sign_Up_Bot:
                 flag = False
             except:
                 pass
-        # please work please work please work
+        # finding all buttons
+        buttons = bot.find_elements_by_tag_name('button')
+        # clicking the next button again
+        for button in buttons:
+            if button.text == 'Sign up' or button.text == 'Next':
+                button.click()
 
 
 if __name__ == '__main__':
@@ -184,7 +203,7 @@ if __name__ == '__main__':
     bot3 = Sign_Up_Bot()
     bot4 = Sign_Up_Bot()
     bot5 = Sign_Up_Bot()
-    process1 = multiprocessing.Process(target=bot1.get_mail, args=(email,))
+    process1 = multiprocessing.Process(target=bot1.get_mail, args=(email, verification_code))
     process2 = multiprocessing.Process(target=bot2.get_full_name, args=(full_name,))
     process3 = multiprocessing.Process(target=bot3.get_username, args=(username,))
     process4 = multiprocessing.Process(target=bot4.get_password, args=(password,))

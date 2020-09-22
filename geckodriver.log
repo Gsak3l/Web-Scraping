@@ -18667,3 +18667,318 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJg
 * Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
 * Exhausted GL driver options.
 1600802062526	Marionette	INFO	Stopped listening on port 43929
+1600802605576	Marionette	INFO	Stopped listening on port 33553
+1600802610940	Marionette	INFO	Stopped listening on port 33739
+1600802613244	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nYZQj513yp9E"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600802614967	Marionette	INFO	Listening on port 46273
+1600802615120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600802615154	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BvXuwr93CYGo"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600802616868	Marionette	INFO	Listening on port 38471
+1600802616961	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600802617054	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IqNyzf5zrVuN"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600802618797	Marionette	INFO	Listening on port 45037
+1600802618858	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600802618969	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IHpE67tAxhGC"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600802620744	Marionette	INFO	Listening on port 36973
+1600802620774	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600802620876	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qNAFEUCwiLp2"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600802622685	Marionette	INFO	Listening on port 41303
+1600802622783	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 629 > eval line 1 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 629 > eval line 1 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 629 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1600802633559	Marionette	INFO	Stopped listening on port 38471
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 7224 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 7224 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 7224 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript error: https://cdn.ampproject.org/rtv/012009010507000/v0/amp-analytics-0.1.js, line 133: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.ampproject.org/rtv/012009010507000/v0/amp-analytics-0.1.js, line 133: NS_ERROR_NOT_INITIALIZED: 
+1600802643275	Marionette	INFO	Stopped listening on port 45037
+1600802643533	Marionette	INFO	Stopped listening on port 36973
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 4067 > eval line 1 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 4067 > eval line 1 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 4067 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1600802773550	Marionette	INFO	Stopped listening on port 41303
+1600802774989	Marionette	INFO	Stopped listening on port 46273
+1600802777450	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mx8gZzve9XVv"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600802779150	Marionette	INFO	Listening on port 46015
+1600802779162	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600802779191	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dwTZ7sI7B17o"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600802780903	Marionette	INFO	Listening on port 39673
+1600802780995	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600802781105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9k9dHAsbf87y"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600802782835	Marionette	INFO	Listening on port 37663
+1600802782909	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600802783022	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2UNI5Eh8sfex"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600802784730	Marionette	INFO	Listening on port 36275
+1600802784902	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600802784934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7lhU7vDF2GTr"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600802786664	Marionette	INFO	Listening on port 42053
+1600802786738	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1600802805891	Marionette	INFO	Stopped listening on port 39673
+1600802805999	Marionette	INFO	Stopped listening on port 36275
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 940 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 940 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 940 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 6586 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 6586 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 6586 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 4104 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 4104 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 4104 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 3859 > eval line 1 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 3859 > eval line 1 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 3859 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1600802813510	Marionette	INFO	Stopped listening on port 37663
+SourceActor threw an exception: Error: Failed to fetch https://adservice.google.com/adsid/integrator.js?domain=tempail.com. Code 2152398861.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:549:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 549, column: 16
+console.error: (new Error("Failed to fetch https://adservice.google.com/adsid/integrator.js?domain=tempail.com. Code 2152398861.", "resource://devtools/shared/DevToolsUtils.js", 549))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 549: Error: Failed to fetch https://adservice.google.com/adsid/integrator.js?domain=tempail.com. Code 2152398861.
+1600803003001	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QHbXWOZeVbXS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803004690	Marionette	INFO	Listening on port 44533
+1600803004705	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803004734	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bimU7KtMadxE"
+1600803005317	Marionette	INFO	Stopped listening on port 42053
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803006549	Marionette	INFO	Listening on port 46791
+1600803006660	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803006692	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XoccIiFGFYxy"
+1600803007379	Marionette	INFO	Stopped listening on port 46015
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803008469	Marionette	INFO	Listening on port 39999
+1600803008496	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803008525	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PcMGFCRNyBh8"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803010314	Marionette	INFO	Listening on port 35281
+1600803010329	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803010434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BTHDlsyTi9Yl"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803012144	Marionette	INFO	Listening on port 37233
+1600803012297	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 5318 > eval line 1 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 5318 > eval line 1 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 5318 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1600803028238	Marionette	INFO	Stopped listening on port 35281
+1600803038184	Marionette	INFO	Stopped listening on port 46791
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 6962 > eval line 1 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 6962 > eval line 1 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 6962 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1600803048021	Marionette	INFO	Stopped listening on port 39999
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1600803106625	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sh3Ekz124XI1"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803108308	Marionette	INFO	Listening on port 44141
+1600803108328	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803108358	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.K9LZiTue2qLK"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803110123	Marionette	INFO	Listening on port 44909
+1600803110162	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803110192	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qUNg8ET7cxda"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803111941	Marionette	INFO	Listening on port 38553
+1600803111996	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803112025	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.93SGTXNglgVm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803113825	Marionette	INFO	Listening on port 42355
+1600803113830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803113939	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZtASwGWTbCDK"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803115687	Marionette	INFO	Listening on port 33823
+1600803115743	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1600803125864	Marionette	INFO	Stopped listening on port 44909
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 258 > eval line 1 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 258 > eval line 1 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 258 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 628 > eval line 1 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 628 > eval line 1 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 628 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1600803130427	Marionette	INFO	Stopped listening on port 42355
+1600803132289	Marionette	INFO	Stopped listening on port 38553
+1600803197039	Marionette	INFO	Stopped listening on port 33823
+1600803198482	Marionette	INFO	Stopped listening on port 44141
+1600803234145	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.e5osDTg9CzCq"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803235902	Marionette	INFO	Listening on port 32827
+1600803235948	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803235977	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OnfJMWeKbsaF"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803237685	Marionette	INFO	Listening on port 43665
+1600803237857	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803237888	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oHDesoCUkyUl"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803239578	Marionette	INFO	Listening on port 39463
+1600803239592	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803239622	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TXvucoRWZOBy"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803241321	Marionette	INFO	Listening on port 34923
+1600803241327	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803241355	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rlOCnNNyq875"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803243065	Marionette	INFO	Listening on port 32793
+1600803243234	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 2205 > eval line 1 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 2205 > eval line 1 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 2205 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1600803256028	Marionette	INFO	Stopped listening on port 34923
+1600803256562	Marionette	INFO	Stopped listening on port 43665
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 1995 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 1995 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 1995 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript error: https://376079ed1add5932bea8018af763598b.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html, line 5: ReferenceError: dhtml is not defined
+JavaScript error: https://376079ed1add5932bea8018af763598b.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html, line 5: ReferenceError: dhtml is not defined
+1600803264161	Marionette	INFO	Stopped listening on port 39463
+1600803427487	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JJfWIcyxBFUc"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803429251	Marionette	INFO	Listening on port 37395
+1600803429291	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803429320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.V6gKiAVa9pvc"
+1600803430506	Marionette	INFO	Stopped listening on port 32793
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803431087	Marionette	INFO	Listening on port 41573
+1600803431124	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803431152	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uy0FEVULkQuH"
+1600803431913	Marionette	INFO	Stopped listening on port 32827
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803432922	Marionette	INFO	Listening on port 39251
+1600803432956	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803432986	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NiceLmNp1AzO"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803434737	Marionette	INFO	Listening on port 36737
+1600803434791	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600803434821	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.L0JWVScJ8SOS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600803436540	Marionette	INFO	Listening on port 34077
+1600803436625	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 403: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 5419 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 5419 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 5419 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1600803444013	Marionette	INFO	Stopped listening on port 36737
+1600803451989	Marionette	INFO	Stopped listening on port 41573
+1600803457842	Marionette	INFO	Stopped listening on port 39251
+JavaScript error: https://webkay.robinlinus.com/scripts/device.js, line 33: TypeError: navigator.getBattery is not a function
+JavaScript error: https://webkay.robinlinus.com/scripts/ip.js, line 65: TypeError: ip_regex.exec(...) is null
+JavaScript error: https://webkay.robinlinus.com/scripts/ip.js, line 65: TypeError: ip_regex.exec(...) is null
+JavaScript error: https://webkay.robinlinus.com/scripts/ip.js, line 65: TypeError: ip_regex.exec(...) is null
+1600803493890	Marionette	INFO	Stopped listening on port 34077
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 5388 > eval line 1 > eval, line 1: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_GLXTEST_FAILED)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 5388 > eval line 1 > eval, line 1: WebGL warning: <Create>: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1_03cBvoBNT0he2HFJgLMT3GhFwSFAX6UTdHR299Cnk.js line 1 > eval line 5388 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_GLXTEST_FAILED
+* Exhausted GL driver options.
+1600803529714	Marionette	INFO	Stopped listening on port 37395
