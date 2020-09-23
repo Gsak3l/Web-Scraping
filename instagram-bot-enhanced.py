@@ -195,6 +195,20 @@ class Sign_Up_Bot:
         for button in buttons:
             if button.text == 'Sign up' or button.text == 'Next':
                 button.click()
+        # waiting to get the verification code from our email process and then we proceed
+        while len(verification_code) == 0:
+            continue
+        # finding the input for the verification code
+        inputs = bot.find_elements_by_tag_name('input')
+        for inp in inputs:
+            if inp.get_attribute('name') == 'email_confirmation_code':
+                inp.send_keys(verification_code[len(verification_code) - 1])  # entering the confirmation code
+        # finding all buttons again
+        buttons = bot.find_elements_by_tag_name('button')
+        # pressing the next button again
+        for button in buttons:
+            if button.text == 'Sign up' or button.text == 'Next':
+                button.click()
 
 
 if __name__ == '__main__':
