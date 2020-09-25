@@ -98,7 +98,7 @@ class Sign_Up_Bot:
             # clicking only the buttons with the text Suggest
             if button.get_attribute('value') == 'Suggest':
                 button.click()
-                bot.execute_script('window.scrollBy(0, 30);')
+                bot.execute_script('window.scrollBy(0, 60);')
         # from all the suggestions, blanking the first, last name, and middle name
         bot.find_elements_by_class_name('sizeMedium')[0].clear()
         bot.find_elements_by_class_name('sizeMedium')[1].clear()
@@ -144,12 +144,16 @@ class Sign_Up_Bot:
         while flag:
             try:
                 bot.find_element_by_name('emailOrPhone').send_keys(email[len(email) - 1])  # input email
+                time.sleep(1)  # to avoid captcha
                 bot.find_element_by_name('fullName').send_keys(full_name[len(full_name) - 1])  # input name
+                time.sleep(1)  # to avoid captcha
                 bot.find_element_by_name('username').send_keys(username[len(username) - 1])  # input username
+                time.sleep(1)  # to avoid captcha
                 bot.find_element_by_name('password').send_keys(password[len(password) - 1])  # input password
                 flag = False
             except:
                 pass
+        time.sleep(2)  # time sleep added so we can avoid the captcha
         # clicking the next button on the credential form
         buttons = bot.find_elements_by_tag_name('button')
         for button in buttons:
@@ -169,7 +173,7 @@ class Sign_Up_Bot:
                     button.click()
         except:
             pass
-        time.sleep(1)
+        time.sleep(2)  # time sleep added so we can avoid the captcha
         # selecting random age
         # selecting a year between 1975 and 2001 (18+ years old)
         year = Select(bot.find_element_by_xpath(
@@ -203,12 +207,14 @@ class Sign_Up_Bot:
         for inp in inputs:
             if inp.get_attribute('name') == 'email_confirmation_code':
                 inp.send_keys(verification_code[len(verification_code) - 1])  # entering the confirmation code
+        time.sleep(2)  # time sleep added so we can avoid the captcha
         # finding all buttons again
         buttons = bot.find_elements_by_tag_name('button')
         # pressing the next button again
         for button in buttons:
             if button.text == 'Sign up' or button.text == 'Next':
                 button.click()
+        time.sleep(3)
 
 
 if __name__ == '__main__':
