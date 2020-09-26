@@ -13,6 +13,8 @@ password = manager.list()
 username = manager.list()
 bio = manager.list()
 verification_code = manager.list()
+errors = manager.list()
+success = manager.list()
 
 
 # noinspection PyBroadException
@@ -39,7 +41,27 @@ class Sign_Up_Bot:
                 flag = False
             except:
                 pass
-        #  just printing the value of the verification code
+        # just printing the value of the verification code
+        print(verification_list[len(verification_list) - 1])
+        # doing nothing until we get an error
+        while len(errors) == 0 and len(success) == 0:
+            continue
+        # clicking reload on the mails, and waiting for the instagram verification mail to appear
+        flag = True
+        while flag:
+            time.sleep(3)
+            # clicking refresh
+            bot.find_element_by_class_name('yenile-link').click()
+            try:
+                # trying to find two emails, the first and the one that came now
+                mails = bot.find_elements_by_class_name('mail')
+                if len(mails) == 2:
+                    ver = mails[0].find_element_by_class_name('baslik').text
+                    verification_list.append(ver.split(' ')[0])  # getting just the numbers
+                    flag = False
+            except:
+                pass
+        # just printing the value of the verification code
         print(verification_list[len(verification_list) - 1])
 
     def get_full_name(self, full_name_list):  # random generated name
@@ -133,7 +155,7 @@ class Sign_Up_Bot:
         print(password_list[len(password_list) - 1])
         bot.close()
 
-    def instagram(self):
+    def instagram(self, errors_list, success_list):
         bot = self.bot
         bot.get('https://www.instagram.com/accounts/emailsignup/')  # reaching instagram
         flag = True
@@ -144,12 +166,10 @@ class Sign_Up_Bot:
         while flag:
             try:
                 bot.find_element_by_name('emailOrPhone').send_keys(email[len(email) - 1])  # input email
-                time.sleep(1)  # to avoid captcha
                 bot.find_element_by_name('fullName').send_keys(full_name[len(full_name) - 1])  # input name
-                time.sleep(1)  # to avoid captcha
                 bot.find_element_by_name('username').send_keys(username[len(username) - 1])  # input username
-                time.sleep(1)  # to avoid captcha
                 bot.find_element_by_name('password').send_keys(password[len(password) - 1])  # input password
+                time.sleep(2)
                 flag = False
             except:
                 pass
@@ -202,6 +222,7 @@ class Sign_Up_Bot:
         # waiting to get the verification code from our email process and then we proceed
         while len(verification_code) == 0:
             continue
+        time.sleep(3)  # captcha stuff
         # finding the input for the verification code
         inputs = bot.find_elements_by_tag_name('input')
         for inp in inputs:
@@ -215,6 +236,21 @@ class Sign_Up_Bot:
             if button.text == 'Sign up' or button.text == 'Next':
                 button.click()
         time.sleep(3)
+        # instagram some times refuses to accept the first verification code, and we have to request a second one
+        try:
+            # trying to print the error message
+            print(bot.find_element_by_xpath(
+                '/html/body/div[1]/section/main/div/article/div/div[1]/div[2]/form/div/div[4]').text)
+            errors_list.append(True)
+            for button in buttons:
+                if button.text == 'Resend Code.':
+                    # clicking the resend code button
+                    button.click()
+        except:
+            pass
+        # waiting for the second verification code
+        while len(verification_code) == 1:
+            continue
 
 
 if __name__ == '__main__':
@@ -227,7 +263,7 @@ if __name__ == '__main__':
     process2 = multiprocessing.Process(target=bot2.get_full_name, args=(full_name,))
     process3 = multiprocessing.Process(target=bot3.get_username, args=(username,))
     process4 = multiprocessing.Process(target=bot4.get_password, args=(password,))
-    process5 = multiprocessing.Process(target=bot5.instagram, )
+    process5 = multiprocessing.Process(target=bot5.instagram, args=(errors, success,))
     process1.start()
     process2.start()
     process3.start()
