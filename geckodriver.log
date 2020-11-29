@@ -19909,3 +19909,42 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
 1601569070001	Marionette	INFO	Listening on port 33491
 1601569070040	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601569305565	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aOTo550SYZVR"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601569307337	Marionette	INFO	Listening on port 42375
+1601569307369	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601569307405	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6BOKrorabXnZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601569309155	Marionette	INFO	Listening on port 35137
+1601569309209	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601569309240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vITl6jNjDrHd"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601569310978	Marionette	INFO	Listening on port 37141
+1601569311044	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1601569342186	Marionette	INFO	Stopped listening on port 33491
+1601569342193	Marionette	INFO	Stopped listening on port 36581
+1601569342201	Marionette	INFO	Stopped listening on port 35871
+1604214933247	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LDjTLYbBxk6j"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604214934955	Marionette	INFO	Listening on port 37863
+1604214935135	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604214935164	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CCxgrxVVJM0b"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604214936821	Marionette	INFO	Listening on port 38459
+1604214936883	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604214936908	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZSwsMrL6xrL2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604214938662	Marionette	INFO	Listening on port 36743
+1604214938729	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604215070956	Marionette	INFO	Stopped listening on port 37863
+1604215084947	Marionette	INFO	Stopped listening on port 38459
+1604215119394	Marionette	INFO	Stopped listening on port 36743
