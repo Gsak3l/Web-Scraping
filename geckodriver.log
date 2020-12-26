@@ -19965,3 +19965,24 @@ JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_E
 1609016859918	Marionette	INFO	Stopped listening on port 43989
 1609016872831	Marionette	INFO	Stopped listening on port 45403
 1609016908355	Marionette	INFO	Stopped listening on port 45791
+1609018121604	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7GN8dEO9DGei"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609018123239	Marionette	INFO	Listening on port 40271
+1609018123323	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609018123408	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KOv1y5M5js6v"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609018125055	Marionette	INFO	Listening on port 37119
+1609018125126	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609018125149	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pCkCJCVj44Pd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609018126763	Marionette	INFO	Listening on port 41429
+1609018126871	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
