@@ -19948,3 +19948,20 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1604215070956	Marionette	INFO	Stopped listening on port 37863
 1604215084947	Marionette	INFO	Stopped listening on port 38459
 1604215119394	Marionette	INFO	Stopped listening on port 36743
+1609016722150	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VgsjGY6wGRiN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609016723735	Marionette	INFO	Listening on port 43989
+1609016723769	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609016723792	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MpUyzg1cEfxN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609016725337	Marionette	INFO	Listening on port 45403
+1609016725411	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609016725435	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jT4nuhcRMCzm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609016727115	Marionette	INFO	Listening on port 45791
+1609016727154	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://toglooman.com/1?z=3479964, line 2: TypeError: window[__$.CG] is not a function
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1609016859918	Marionette	INFO	Stopped listening on port 43989
+1609016872831	Marionette	INFO	Stopped listening on port 45403
+1609016908355	Marionette	INFO	Stopped listening on port 45791
