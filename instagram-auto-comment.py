@@ -13,10 +13,12 @@ def check_info():
     while not validators.url("https://www.instagram.com/" + str(credentials_2[0]) + "/") or not len(credentials_2[0]) >= 3:
         credentials_2[0] = input("incorrect username, try again: ")
     u_flag = False
+
     # password stuff
     credentials_2[1] = input("password: ")
     while not len(credentials_2[1]) > 6:
         input("incorrect password will not work, try again: ")
+
     # instagram post stuff
     credentials_2[2] = input("post url: ")
     while not validators.url("https://www.instagram.com/" + str(credentials_2[2]) + "/"):
@@ -27,6 +29,7 @@ def check_info():
 def comment(credentials_2):
     comment_spammer = webdriver.Chrome(executable_path='./chromedriver')
     comment_spammer.get(credentials_2[2])  # reaching the post
+
     # loggin in
     flag = True
     while flag:
@@ -39,11 +42,22 @@ def comment(credentials_2):
         except:
             pass
     comment_spammer.find_element_by_xpath('/html/body/div[1]/section/main/div/div/div[1]/div/form/div[1]/div[3]/button').click()
-    time.sleep(15)
+
+    # bypassing the save credentials step
+    while not flag:
+        buttons = comment_spammer.find_elements_by_tag_name('button')
+        for button in buttons:
+            try:
+                if button.text == 'Not Now':
+                    button.click()
+                    flag = True
+            except:
+                pass
+    time.sleep(25)
+
+    # optional credential button
 
 
 if __name__ == '__main__':
     credentials = check_info()
     comment(credentials)
-    # comment_spammer = webdriver.Chrome(executable_path='./chromedriver')
-    # comment_spammer.get(instagram_post_url)
