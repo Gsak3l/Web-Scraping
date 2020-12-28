@@ -81,10 +81,15 @@ def get_follower_names(follower_names_getter, credentials_2):
     lis = []
     while int(number_of_followers) - 1 >= len(lis):
         follower_names_getter.execute_script('arguments[0].scrollTop = arguments[0].scrollHeight', follower_window)
+        lis = follower_names_getter.find_element_by_xpath('/html/body/div[5]/div/div/div[2]').find_elements_by_tag_name('li')
 
-        lis = follower_names_getter.find_elements_by_tag_name('li')
+    for li in lis:
+        try:
+            if li.find_element_by_tag_name('span').text != '':
+                names_2.append(li.find_element_by_tag_name('span').text)
+        except:
+            pass
 
-    print(len(lis))
     return names_2
 
 
