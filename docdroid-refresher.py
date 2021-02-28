@@ -6,7 +6,7 @@ import multiprocessing
 
 class doc_refresher:
     def __init__(self):
-        self.bot = webdriver.Firefox()
+        self.bot = webdriver.Chrome(executable_path='./chromedriver')
 
     def refresh_teacher_pdf(self):
         bot = self.bot
