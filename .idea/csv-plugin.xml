@@ -10,6 +10,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/duolingo-streak-refresh.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/duolingo_stories.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/instagram-auto-comment.py">
           <value>
             <Attribute>
