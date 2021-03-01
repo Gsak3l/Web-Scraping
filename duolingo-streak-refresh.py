@@ -13,10 +13,10 @@ class refresh_streak:
         self.bot = webdriver.Chrome(executable_path='./chromedriver', options=chrome_options)
 
     def refresh(self, email, password):
+        duo = self.bot
         flag = True
         while flag:
             try:
-                duo = self.bot
                 duo.get('https://www.duolingo.com/')
                 # trying to click the 'I already have an account button'
                 links = duo.find_elements_by_tag_name('a')
@@ -45,14 +45,17 @@ class refresh_streak:
                     lis = duo.find_elements_by_tag_name('li')
 
                 for li in lis:
-                    if 'Double or Nothing' in li.get_attribute('outerHTML'):
-                        print('yeah')
+                    if 'Streak Freeze' in li.get_attribute('outerHTML'):
                         li.find_element_by_tag_name('button').click()
                         flag = False
             except:
-                pass
+                duo.close()
+
+        duo.close()
 
 
 if __name__ == '__main__':
-    bot = refresh_streak()
-    bot.refresh('hahahaha@hahaha.go', 'hahahaha@hahaha.go')
+    while True:
+        bot = refresh_streak()
+        bot.refresh('hahahaha@hahaha.go', 'hahahaha@hahaha.go')
+        time.sleep(21600)  # runs every six hours
